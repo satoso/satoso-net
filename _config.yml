@@ -2,6 +2,7 @@
 name: satoso.net
 markdown: redcarpet
 pygments: true
+exclude: [README.markdown]
 gems: [jekyll-slim, jekyll-sass]
 permalink: /blog/:year/:month/:day/:title.html
 sass:
