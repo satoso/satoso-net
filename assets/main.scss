@@ -40,15 +40,10 @@ a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
-ul,
-ol {
-  margin: 1em 0 1em 1.4em;
-}
+ul, ol { margin: 1em 0 1em 1.4em; }
 
-ul ul,
-ul ol,
-ol ul,
-ol ol {
+ul ul, ul ol,
+ol ul, ol ol {
   margin: 0 0 0 1.4em;
 }
 
@@ -104,7 +99,7 @@ ol ol {
 }
 
 .header {
-  margin-bottom: 2em;
+  margin-bottom: 1.2em;
 
   nav {
     display: inline-block;
@@ -117,6 +112,7 @@ ol ol {
         margin: 0 0 0 0.6em;
         padding: 0;
         display: inline-block;
+        font-weight: bold;
       }
     }
   }
@@ -133,23 +129,13 @@ h1.title {
   font-weight: bold;
   font-size: 104%;
 
-  a {
-    color: #a00;
-  }
-
-  a:hover {
-    color: #000;
-  }
+  a       { color: #a00; }
+  a:hover { color: #000; }
 }
 
 .header {
-  a.extra {
-    color: #aaa;
-  }
-
-  a.extra:hover {
-    color: #000;
-  }
+  a.extra       { color: #aaa; }
+  a.extra:hover { color: #000; }
 }
 
 .meta {
@@ -157,7 +143,7 @@ h1.title {
 }
 
 img.top {
-  margin-bottom: 2em;
+  margin-bottom: 1.2em;
 }
 
 .site img {
@@ -175,9 +161,7 @@ img.top {
   /*float: left;
     margin-right: 3em;*/
 
-    a {
-      color: #8085C1;
-    }
+    a { color: #8085C1; }
   }
 
   .rss {
@@ -185,9 +169,7 @@ img.top {
     margin-right: -.2em;
     float: right;
 
-    img {
-      border: 0;
-    }
+    img { border: 0; }
   }
 }
 
