@@ -5,22 +5,23 @@ html
     meta(content="IE=edge,chrome=1" http-equiv="X-UA-Compatible")
     title 
       | {{ page.title }}
-    meta(content="width=device-width" name="viewport")
+    meta(name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0")
     /! syntax highlighting CSS
     link(href="/assets/syntax.css" rel="stylesheet")
     /! Custom CSS
     link(href="/assets/main.css" rel="stylesheet")
   body
     .site
-      .header
+      header
         h1.title
           a(href="/") {{ site.name }}
         nav
           ul
             li
               a.extra(href="/about.html") about
-      | {{ content }}
-      .footer
+      main
+        | {{ content }}
+      footer
         .contact
           address
             | SATŌ Sō | 

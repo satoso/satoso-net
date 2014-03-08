@@ -9,6 +9,7 @@ nav, header, footer, section, article {
 body {
   background-color: #fff;
   font-family: Helvetica, Arial, sans-serif;
+/*  font-family: verdana, sans-serif;*/
 }
 
 .site {
@@ -21,6 +22,7 @@ body {
 }
 
 h1 {
+  font-weight: bold;
   margin: 0 0 1em;
 }
 
@@ -68,6 +70,10 @@ ol ul, ol ol {
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
   }
+
+  p.site-desc {
+    margin-bottom: 1.4em;
+  }
 }
 
 /*****************************************************************************/
@@ -76,7 +82,7 @@ ol ul, ol ol {
 /*
 /*****************************************************************************/
 #concerts {
-  .date,
+/*.date,
   .title {
     font-weight: bold;
   }
@@ -87,7 +93,9 @@ ol ul, ol ol {
   }
   dfn {
     font-style: normal;
-  }
+  }*/
+  .date { font-weight: bold; }
+  .place { color: #999; }
 }
 /*****************************************************************************/
 /*
@@ -98,7 +106,7 @@ ol ul, ol ol {
 .site {
 }
 
-.header {
+header {
   margin-bottom: 1.2em;
 
   nav {
@@ -121,6 +129,8 @@ ol ul, ol ol {
     /* font-weight: bold; */
     text-decoration: none;
   }
+  a.extra       { color: #aaa; }
+  a.extra:hover { color: #000; }
 }
 
 h1.title {
@@ -133,24 +143,20 @@ h1.title {
   a:hover { color: #000; }
 }
 
-.header {
-  a.extra       { color: #aaa; }
-  a.extra:hover { color: #000; }
-}
 
 .meta {
   color: #aaa;
 }
 
 img.top {
-  margin-bottom: 1.2em;
+/*  margin-bottom: 1.2em;*/
 }
 
 .site img {
   max-width: 100%;
 }
 
-.footer {
+footer {
   font-size: 80%;
   color: #666;
   border-top: 4px solid #eee;
@@ -218,3 +224,9 @@ address {
   }
 }
 
+@media screen and (max-width:480px) {
+
+  .site {
+    margin-top: 1em;
+  }
+}

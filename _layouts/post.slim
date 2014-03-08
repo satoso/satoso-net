@@ -2,9 +2,10 @@
 layout: default
 ---
 #post
-  h2
-    | {{ page.title }}
-  p.meta
-    | {{ page.date | date_to_string }}
-  .post
-    | {{ content }}
+  article
+    h2
+      | {{ page.title }}
+    p.meta
+      | {{ page.date | date_to_string }}
+    .post
+      | {{ content }}
