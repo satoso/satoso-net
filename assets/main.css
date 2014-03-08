@@ -1,5 +1,4 @@
 /* Global Reset */
-/* line 3, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 html, body, div, p, img, h1, h2, h3, h4, h5, h6, ul, ol, dl, dt, dd,
 nav, header, footer, section, article {
   margin: 0;
@@ -7,13 +6,12 @@ nav, header, footer, section, article {
   font-size: 100%;
 }
 
-/* line 9, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 body {
   background-color: #fff;
   font-family: Helvetica, Arial, sans-serif;
+  /*  font-family: verdana, sans-serif;*/
 }
 
-/* line 14, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 .site {
   font-size: 96%;
   line-height: 1.5;
@@ -23,49 +21,41 @@ body {
   margin: 3em auto 2em;
 }
 
-/* line 23, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 h1 {
+  font-weight: bold;
   margin: 0 0 1em;
 }
 
-/* line 27, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 h2 {
   font-weight: bold;
   margin: 0 0 1em;
 }
 
-/* line 32, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 h3 {
   font-weight: bold;
   margin: 1em 0;
 }
 
-/* line 37, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 p {
   margin: 1em 0;
 }
 
-/* line 39, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 a {
   color: #00a;
 }
 
-/* line 40, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 a:hover {
   color: #000;
 }
 
-/* line 41, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 a:visited {
   color: #a0a;
 }
 
-/* line 43, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 ul, ol {
   margin: 1em 0 1em 1.4em;
 }
 
-/* line 46, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 ul ul, ul ol,
 ol ul, ol ol {
   margin: 0 0 0 1.4em;
@@ -76,21 +66,21 @@ ol ul, ol ol {
 /* Home
 /*
 /*****************************************************************************/
-/* line 56, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 #home .posts {
   list-style-type: none;
   margin-left: 0;
   margin-bottom: 2em;
 }
-/* line 62, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 #home .posts li {
   line-height: 1.75;
 }
-/* line 66, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 #home .posts span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
+}
+#home p.site-desc {
+  margin-bottom: 1.4em;
 }
 
 /*****************************************************************************/
@@ -98,20 +88,25 @@ ol ul, ol ol {
 /* Concerts
 /*
 /*****************************************************************************/
-/* line 80, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
-#concerts .date,
-#concerts .title {
+#concerts {
+  /*.date,
+    .title {
+      font-weight: bold;
+    }
+    p.place,
+    p.credit,
+    p.note {
+      margin: 0;
+    }
+    dfn {
+      font-style: normal;
+    }*/
+}
+#concerts .date {
   font-weight: bold;
 }
-/* line 85, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
-#concerts p.place,
-#concerts p.credit,
-#concerts p.note {
-  margin: 0;
-}
-/* line 88, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
-#concerts dfn {
-  font-style: normal;
+#concerts .place {
+  color: #999;
 }
 
 /*****************************************************************************/
@@ -119,101 +114,81 @@ ol ul, ol ol {
 /* Site
 /*
 /*****************************************************************************/
-/* line 101, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
-.header {
+header {
   margin-bottom: 1.2em;
 }
-/* line 104, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
-.header nav {
+header nav {
   display: inline-block;
 }
-/* line 107, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
-.header nav ul {
+header nav ul {
   margin: 0;
   padding: 0;
 }
-/* line 111, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
-.header nav ul li {
+header nav ul li {
   margin: 0 0 0 0.6em;
   padding: 0;
   display: inline-block;
   font-weight: bold;
 }
-/* line 120, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
-.header a {
+header a {
   /* font-weight: bold; */
   text-decoration: none;
 }
+header a.extra {
+  color: #aaa;
+}
+header a.extra:hover {
+  color: #000;
+}
 
-/* line 126, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 h1.title {
   display: inline-block;
   margin: 0;
   font-weight: bold;
   font-size: 104%;
 }
-/* line 132, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 h1.title a {
   color: #a00;
 }
-/* line 133, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 h1.title a:hover {
   color: #000;
 }
 
-/* line 137, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
-.header a.extra {
-  color: #aaa;
-}
-/* line 138, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
-.header a.extra:hover {
-  color: #000;
-}
-
-/* line 141, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 .meta {
   color: #aaa;
 }
 
-/* line 145, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 img.top {
-  margin-bottom: 1.2em;
+  /*  margin-bottom: 1.2em;*/
 }
 
-/* line 149, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 .site img {
   max-width: 100%;
 }
 
-/* line 153, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
-.footer {
+footer {
   font-size: 80%;
   color: #666;
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
 }
-/* line 160, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
-.footer .contact {
+footer .contact {
   /*float: left;
     margin-right: 3em;*/
 }
-/* line 164, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
-.footer .contact a {
+footer .contact a {
   color: #8085C1;
 }
-/* line 167, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
-.footer .rss {
+footer .rss {
   margin-top: 1.1em;
   margin-right: -.2em;
   float: right;
 }
-/* line 172, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
-.footer .rss img {
+footer .rss img {
   border: 0;
 }
 
-/* line 176, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 address {
   font-style: normal;
   margin: 0.4em 0;
@@ -225,37 +200,36 @@ address {
 /*
 /*****************************************************************************/
 /* standard */
-/* line 188, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 .post {
   /* terminal */
 }
-/* line 189, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
 }
-/* line 195, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 .post ul, .post ol {
   margin-left: 1.35em;
 }
-/* line 199, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 .post code {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
 }
-/* line 205, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 .post pre code {
   border: none;
 }
-/* line 210, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 .post pre.terminal {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
 }
-/* line 216, /Users/satoso/Sites/jekyll/satoso-net/assets/main.scss */
 .post pre.terminal code {
   background-color: #333;
+}
+
+@media screen and (max-width: 480px) {
+  .site {
+    margin-top: 1em;
+  }
 }
