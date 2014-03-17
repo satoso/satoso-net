@@ -88,7 +88,7 @@ ol ul, ol ol {
 /* Concerts
 /*
 /*****************************************************************************/
-#concerts {
+ul.concerts {
   /*.date,
     .title {
       font-weight: bold;
@@ -102,10 +102,10 @@ ol ul, ol ol {
       font-style: normal;
     }*/
 }
-#concerts .date {
+ul.concerts .date {
   font-weight: bold;
 }
-#concerts .place {
+ul.concerts .place {
   color: #999;
 }
 
