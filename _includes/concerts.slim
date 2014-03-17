@@ -1,0 +1,13 @@
+ul.concerts
+  | {% for concert in site.data.concerts %}
+  li
+    span.date
+      | {{ concert.date | date:"%Y.%m.%d" }}
+    |  {{ concert.name }} 
+    span.place
+      | @ {{ concert.place }}
+
+  | {% endfor %}
+
+  li 以下，整理中
+
