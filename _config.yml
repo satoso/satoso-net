@@ -3,6 +3,7 @@ name: satoso.net
 markdown: redcarpet
 pygments: true
 exclude: [README.markdown, commit-push.sh, jekyll-serve.sh]
+include: [.htaccess]
 gems: [jekyll-slim, jekyll-sass]
 permalink: /text/:year/:month/:day/:title.html
 sass:
