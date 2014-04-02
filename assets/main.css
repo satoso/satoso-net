@@ -61,6 +61,12 @@ ol ul, ol ol {
   margin: 0 0 0 1.4em;
 }
 
+span.timestamp {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%;
+}
+
 /*****************************************************************************/
 /*
 /* Home
@@ -73,11 +79,6 @@ ol ul, ol ol {
 }
 #home .posts li {
   line-height: 1.75;
-}
-#home .posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
 }
 #home p.site-desc {
   margin-bottom: 1.4em;
