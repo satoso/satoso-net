@@ -1,2 +1,2 @@
-# equivalent to 'Options -Indexes'
-DirectoryIndex .ht
+# '.ht' is equivalent to 'Options -Indexes'
+DirectoryIndex index.html .ht
