@@ -55,6 +55,14 @@ span.timestamp {
   font-size: 80%;
 }
 
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+strong {
+  font-weight: bold;
+  background-color: #fff3b8;
+}
 /*****************************************************************************/
 /*
 /* Home
@@ -196,6 +204,7 @@ address {
     border: 1px solid #ddd;
     background-color: #eef;
     padding: 0 .4em;
+    overflow-x: auto;
   }
 
   ul, ol {
@@ -217,6 +226,7 @@ address {
     border: 1px solid #000;
     background-color: #333;
     color: #FFF;
+    overflow-x: auto;
   }
 
   pre.terminal code {
