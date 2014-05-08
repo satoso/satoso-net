@@ -8,12 +8,13 @@ home: true
   img.top(src="/assets/satoso-net-top.jpg")
   section
     p.site-desc
-      | 佐藤奏のウェブサイト。日記は
-      a(href="//diary.satoso.net/" target="_blank") こちら
-      | 。
+      | 佐藤奏のウェブサイト。
   section
     h2 テキスト
     ul.posts
+      li
+        | 日記: 
+        a(href="//diary.satoso.net/" target="_blank") diary.satoso.net
       | {% for post in site.posts %}
       li
         span.timestamp
@@ -24,7 +25,7 @@ home: true
         /| {{ post }}
       | {% endfor %}
   section
-    h2 プロダクト
+    h2 物置
     ul
       li
         a(href="/product/blank_pdf/") 白紙のPDF
