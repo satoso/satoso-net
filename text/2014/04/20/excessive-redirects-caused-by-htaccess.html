@@ -34,13 +34,13 @@
     </p>
     <div class="post">
       <p>ドキュメントの実ファイルをそっくり別のディレクトリに入れておきたい場合がある。例えば<code>/index.html</code>へのアクセスで<code>/somedir/index.html</code>を返したい。このように<code>/</code>へのアクセスを<code>/somedir/</code>へ向ける場合，<code>.htaccess</code>にこんな感じで書く。</p>
-<div class="highlight"><pre><code class="apache language-apache" data-lang="apache"><span class="c"># リクエストしたファイルが存在せず，かつディレクトリも存在しない場合，rewriteする</span>
+<div class="highlight"><pre><code class="language-apache" data-lang="apache"><span class="c"># リクエストしたファイルが存在せず，かつディレクトリも存在しない場合，rewriteする</span>
 <span class="nb">RewriteCond</span> %{REQUEST_FILENAME} !-f
 <span class="nb">RewriteCond</span> %{REQUEST_FILENAME} !-d
 <span class="nb">RewriteRule</span> ^(.*)$ somedir/$1 [L,QSA]
 </code></pre></div>
 <p>ところがこれをやったらサーバのログにエラーメッセージがたくさん出て，対処方法が分からずずいぶんとハマった。こういうのが大量に出る。</p>
-<div class="highlight"><pre><code class="text language-text" data-lang="text">[xxx xxx xx xx:xx:xx 2014] [error] [client xx.xxx.xx.xx] Request exceeded the limit of 10 internal redirects due to probable configuration error. Use &#39;LimitInternalRecursion&#39; to increase the limit if necessary. Use &#39;LogLevel debug&#39; to get a backtrace.
+<div class="highlight"><pre><code class="language-text" data-lang="text">[xxx xxx xx xx:xx:xx 2014] [error] [client xx.xxx.xx.xx] Request exceeded the limit of 10 internal redirects due to probable configuration error. Use &#39;LimitInternalRecursion&#39; to increase the limit if necessary. Use &#39;LogLevel debug&#39; to get a backtrace.
 </code></pre></div>
 <p>結論から言うと，この原因は<em><code>favicon.ico</code>と<code>robots.txt</code>がないこと</em>だった。そもそも上の記述は，<code>/</code>にも<code>/somedir/</code>にも存在しないファイルに対してアクセスがあった場合，<code>somedir/somedir/somedir/...</code>と，見つかるまでrewriteし続ける（はず。ログレベルがいじれなくて詳細が分からなかったが）。ブラウザでの閲覧で<code>favicon.ico</code>に，検索エンジンのクロールで<code>robots.txt</code>にそれぞれアクセスするので，ファイルがないからリダイレクトの上限に達するまでrewriteされてしまったというわけ。この2ファイルを置いたら解決。</p>
 
