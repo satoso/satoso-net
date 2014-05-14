@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ".htaccessの指定によって意図しないリダイレクトが発生した件"
+title:  ".htaccessの指定によって無限リダイレクトが発生した件"
 ---
 
 ドキュメントの実ファイルをそっくり別のディレクトリに入れておきたい場合がある。例えば `/` へのアクセスを `/somedir/` へ向ける（`/index.html` へのアクセスで `/somedir/index.html` を返す）場合， `.htaccess` にこんな感じで書く。
@@ -21,7 +21,7 @@ RewriteRule ^(.*)$ /somedir/$1 [L,QSA]
 
 結論から言うと，直接の原因は <em>`favicon.ico` と `robots.txt` がないこと</em>だった。そもそも上の記述は， `/` にも `/somedir/` にも存在しないファイルに対してアクセスがあった場合， `/somedir/somedir/somedir/...` と，見つかるまでrewriteし続ける（はず。ログレベルがいじれなくて詳細が分からなかったが）。ブラウザでの閲覧で `favicon.ico` に，検索エンジンのクロールで `robots.txt` にそれぞれアクセスするので，ファイルがないからリダイレクトの上限に達するまでrewriteされてしまったというわけ。
 
-当然ながらこれは `favicon.ico` と `robots.txt` に限った話ではなく，存在しないファイルにアクセスされた場合には同様のエラーメッセージがログに出てしまう。根本的な解決策としては <em>`RewriteCond %{REQUEST_URI} !^/somedir` という1行を追加して， `/somedir` で始まるURIに対してはもう書き換えしないようにする。</em>
+当然ながらこれは `favicon.ico` と `robots.txt` に限った話ではなく，存在しないファイルにアクセスされた場合には同様の結果になる。根本的な解決策としては <em>`RewriteCond %{REQUEST_URI} !^/somedir` という1行を追加して， `/somedir` で始まるURIに対してはもう書き換えしないようにする。</em>
 
 ```apache
 #.htaccess

@@ -66,6 +66,10 @@ strong {
   font-weight: bold;
   background-color: #fff3b8;
 }
+.no-wrap {
+  white-space: nowrap; /* 途中で改行しない */
+}
+
 /*****************************************************************************/
 /*
 /* Home
