@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Global Reset */
 html, body, div, p, img, h1, h2, h3, h4, h5, h6, ul, ol, dl, dt, dd,
 nav, header, footer, section, article {
@@ -75,6 +76,11 @@ em {
 strong {
   font-weight: bold;
   background-color: #fff3b8;
+}
+
+.no-wrap {
+  white-space: nowrap;
+  /* 途中で改行しない */
 }
 
 /*****************************************************************************/

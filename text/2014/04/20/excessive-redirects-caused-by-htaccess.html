@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    <title>.htaccessの指定によって意図しないリダイレクトが発生した件 | satoso.net</title>
+    <title>.htaccessの指定によって無限リダイレクトが発生した件 | satoso.net</title>
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0" name="viewport">
     <!--syntax highlighting CSS-->
     <link href="/assets/syntax.css" rel="stylesheet">
@@ -27,7 +27,7 @@
       <main><div id="post">
   <article>
     <h2>
-      .htaccessの指定によって意図しないリダイレクトが発生した件
+      .htaccessの指定によって無限リダイレクトが発生した件
     </h2>
     <p class="meta">
       <span class="timestamp">2014-04-20 Sun</span>
@@ -45,7 +45,7 @@
 </code></pre></div>
 <p>結論から言うと，直接の原因は <em><code>favicon.ico</code> と <code>robots.txt</code> がないこと</em>だった。そもそも上の記述は， <code>/</code> にも <code>/somedir/</code> にも存在しないファイルに対してアクセスがあった場合， <code>/somedir/somedir/somedir/...</code> と，見つかるまでrewriteし続ける（はず。ログレベルがいじれなくて詳細が分からなかったが）。ブラウザでの閲覧で <code>favicon.ico</code> に，検索エンジンのクロールで <code>robots.txt</code> にそれぞれアクセスするので，ファイルがないからリダイレクトの上限に達するまでrewriteされてしまったというわけ。</p>
 
-<p>当然ながらこれは <code>favicon.ico</code> と <code>robots.txt</code> に限った話ではなく，存在しないファイルにアクセスされた場合には同様のエラーメッセージがログに出てしまう。根本的な解決策としては <em><code>RewriteCond %{REQUEST_URI} !^/somedir</code> という1行を追加して， <code>/somedir</code> で始まるURIに対してはもう書き換えしないようにする。</em></p>
+<p>当然ながらこれは <code>favicon.ico</code> と <code>robots.txt</code> に限った話ではなく，存在しないファイルにアクセスされた場合には同様の結果になる。根本的な解決策としては <em><code>RewriteCond %{REQUEST_URI} !^/somedir</code> という1行を追加して， <code>/somedir</code> で始まるURIに対してはもう書き換えしないようにする。</em></p>
 <div class="highlight"><pre><code class="language-apache" data-lang="apache"><span class="c">#.htaccess</span>
 <span class="c"># リクエストしたファイルが存在せず，かつディレクトリも存在しない場合，rewriteする</span>
 <span class="nb">RewriteCond</span> %{REQUEST_URI} !^/somedir
