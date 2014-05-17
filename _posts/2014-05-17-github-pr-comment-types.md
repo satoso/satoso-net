@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Githubのpull requestに対するコメントの付け方は4種類"
+title:  "GitHubのpull requestに対するコメントの付け方は4種類"
 ---
 
-Githubのissue(PR)に対するコメントの付け方がいろいろあってよく分からなくなったので実験してみた。4種類ある。
+GitHubのissue(PR)に対するコメントの付け方がいろいろあってよく分からなくなったので実験してみた。4種類ある。
 
 - pull requestに対するコメント:<br>`<username> commented`
 - commitに対するコメント:<br>`<username> commented on <commit hash>`
