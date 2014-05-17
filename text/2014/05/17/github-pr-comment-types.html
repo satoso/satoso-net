@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    <title>satoso.net</title>
+    <title>Githubのpull requestに対するコメントの付け方は4種類 | satoso.net</title>
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0" name="viewport">
     <meta content="佐藤奏のウェブサイト。" name="description">
     <link href="/feed.xml" rel="alternate" title="RSS" type="application/rss+xml">
@@ -26,42 +26,32 @@
           </ul>
         </nav>
       </header>
-      <main><div id="home">
-  <img class="top" src="/assets/satoso-net-top.jpg">
-  <section>
-    <p class="site-desc">
-      佐藤奏のウェブサイト。
+      <main><div id="post">
+  <article>
+    <h2>
+      Githubのpull requestに対するコメントの付け方は4種類
+    </h2>
+    <p class="meta">
+      <span class="timestamp">2014-05-17 Sat</span>
     </p>
-  </section>
-  <section>
-    <h2>
-      テキスト
-    </h2>
-    <ul class="posts">
-      <li>
-        日記: <a href="//diary.satoso.net/" target="_blank">diary.satoso.net</a>
-      </li>
-      <li>
-        <span class="timestamp">2014-05-17 Sat</span> &raquo; <a href="/text/2014/05/17/github-pr-comment-types.html">Githubのpull requestに対するコメントの付け方は4種類</a>
-      </li>
-      <li>
-        <span class="timestamp">2014-04-20 Sun</span> &raquo; <a href="/text/2014/04/20/excessive-redirects-caused-by-htaccess.html">.htaccessの指定によって無限リダイレクトが発生した件</a>
-      </li>
-      <li>
-        <span class="timestamp">2014-03-09 Sun</span> &raquo; <a href="/text/2014/03/09/handling-data-with-jekyll.html">Jekyllでまとまったデータを扱う: _dataディレクトリの利用</a>
-      </li>
-    </ul>
-  </section>
-  <section>
-    <h2>
-      物置
-    </h2>
-    <ul>
-      <li>
-        <a href="/product/blank_pdf/">白紙のPDF</a>
-      </li>
-    </ul>
-  </section>
+    <div class="post">
+      <p>Githubのissue(PR)に対するコメントの付け方がいろいろあってよく分からなくなったので実験してみた。4種類ある（以下，右側はGithub上での表示メッセージ， <code>&lt; &gt;</code> 内が可変）。</p>
+
+<ul>
+<li>pull requestに対するコメント: <code>&lt;username&gt; commented</code></li>
+<li>commitに対するコメント: <code>&lt;username&gt; commented on &lt;commit hash&gt;</code></li>
+<li>commitの特定の行に対するコメント: <code>&lt;username&gt; commented on &lt;commit hash&gt; &lt;filename&gt;:L&lt;line number&gt;</code></li>
+<li>filesの特定の行に対するコメント: <code>&lt;username&gt; commented on the diff</code></li>
+</ul>
+
+<p>すべてが入ったサンプルはこちら。</p>
+
+<ul>
+<li>https://github.com/satoso/pullreq/pull/2</li>
+</ul>
+
+    </div>
+  </article>
 </div></main>
       <footer>
         <div class="contact">

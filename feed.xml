@@ -7,6 +7,28 @@
     <atom:link href="http://satoso.net/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Githubのpull requestに対するコメントの付け方は4種類</title>
+        <description>&lt;p&gt;Githubのissue(PR)に対するコメントの付け方がいろいろあってよく分からなくなったので実験してみた。4種類ある（以下，右側はGithub上での表示メッセージ， &lt;code&gt;&amp;lt; &amp;gt;&lt;/code&gt; 内が可変）。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;pull requestに対するコメント: &lt;code&gt;&amp;lt;username&amp;gt; commented&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;commitに対するコメント: &lt;code&gt;&amp;lt;username&amp;gt; commented on &amp;lt;commit hash&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;commitの特定の行に対するコメント: &lt;code&gt;&amp;lt;username&amp;gt; commented on &amp;lt;commit hash&amp;gt; &amp;lt;filename&amp;gt;:L&amp;lt;line number&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;filesの特定の行に対するコメント: &lt;code&gt;&amp;lt;username&amp;gt; commented on the diff&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;すべてが入ったサンプルはこちら。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;https://github.com/satoso/pullreq/pull/2&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 17 May 2014 00:00:00 +0900</pubDate>
+        <link>http://satoso.net/text/2014/05/17/github-pr-comment-types.html</link>
+        <guid isPermaLink="true">http://satoso.net/text/2014/05/17/github-pr-comment-types.html</guid>
+      </item>
+    
+      <item>
         <title>.htaccessの指定によって無限リダイレクトが発生した件</title>
         <description>&lt;p&gt;ドキュメントの実ファイルをそっくり別のディレクトリに入れておきたい場合がある。例えば &lt;code&gt;/&lt;/code&gt; へのアクセスを &lt;code&gt;/somedir/&lt;/code&gt; へ向ける（&lt;code&gt;/index.html&lt;/code&gt; へのアクセスで &lt;code&gt;/somedir/index.html&lt;/code&gt; を返す）場合， &lt;code&gt;.htaccess&lt;/code&gt; にこんな感じで書く。&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-apache&quot; data-lang=&quot;apache&quot;&gt;&lt;span class=&quot;c&quot;&gt;#.htaccess&lt;/span&gt;
