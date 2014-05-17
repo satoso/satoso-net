@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Githubのpull requestに対するコメントの付け方は4種類"
+---
+
+Githubのissue(PR)に対するコメントの付け方がいろいろあってよく分からなくなったので実験してみた。4種類ある（以下，右側はGithub上での表示メッセージ， `< >` 内が可変）。
+
+- pull requestに対するコメント: `<username> commented`
+- commitに対するコメント: `<username> commented on <commit hash>`
+- commitの特定の行に対するコメント: `<username> commented on <commit hash> <filename>:L<line number>`
+- filesの特定の行に対するコメント: `<username> commented on the diff`
+
+すべてが入ったサンプルはこちら。
+
+- https://github.com/satoso/pullreq/pull/2
+
