@@ -66,6 +66,7 @@ span.timestamp {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
+  margin-right: 0.8em;
 }
 
 em {
@@ -94,7 +95,9 @@ strong {
   margin-bottom: 2em;
 }
 #home .posts li {
-  line-height: 1.75;
+  /*line-height: 1.75;*/
+  margin: 0.6em 0;
+  line-height: 1.1;
 }
 #home p.site-desc {
   margin-bottom: 1.4em;
@@ -257,5 +260,10 @@ address {
 @media screen and (max-width: 480px) {
   .site {
     margin-top: 1em;
+  }
+
+  span.timestamp {
+    display: block;
+    margin-right: 0;
   }
 }
