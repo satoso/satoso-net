@@ -20,7 +20,7 @@ home: true
         span.timestamp
           / {{ post.date | date_to_string }}
           | {{ post.date | date: "%Y-%m-%d %a" }}
-        |  &raquo; 
+        /|  &raquo; 
         a(href="{{ post.url }}") {{ post.title }}
         /| {{ post }}
       | {% endfor %}
