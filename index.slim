@@ -25,6 +25,23 @@ home: true
         /| {{ post }}
       | {% endfor %}
   section
+    h2 出演予定
+    ul.concerts
+      | {% for concert in site.data.concerts %}
+      / 未来分だけ出力
+      | {% if concert.future %}
+      li
+        span.date
+          | {{ concert.date | date:"%Y.%m.%d" }}
+        |  
+        a(href="{{ concert.link }}" target="_blank") {{ concert.name }}
+        |  
+        span.place
+          | @ {{ concert.place }}
+
+      | {% endif %}
+      | {% endfor %}
+  section
     h2 物置
     ul
       li

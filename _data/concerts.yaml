@@ -12,6 +12,18 @@
 #       name: 
 #       excerpts: [,]
 #       encore: true
+- name:   オーケストラ・セレーナ第5回演奏会
+  link:   //o-serena.jp/
+  date:   2014-08-10
+  place:  杉並公会堂大ホール
+  future: true
+
+- name:   アルス・ブラスアンサンブル第7回演奏会
+  link:   //arsbrass.org/
+  date:   2015-01-31
+  place:  かつしかシンフォニーヒルズ アイリスホール
+  future: true
+
 - name:   アルス・ブラスアンサンブル第6回演奏会
   date:   2014-01-26
   place:  すみだトリフォニーホール小ホール
