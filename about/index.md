@@ -1,6 +1,9 @@
 ---
 layout: default
 title: about
+description: "佐藤奏について。"
+og:
+  type: article
 ---
 
 ##プロフィール

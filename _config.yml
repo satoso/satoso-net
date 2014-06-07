@@ -1,5 +1,6 @@
 #name: Your New Jekyll Site
 name: satoso.net
+domain: satoso.net
 description: "佐藤奏のウェブサイト。"
 baseurl: ""
 feed_file: "/feed.xml"

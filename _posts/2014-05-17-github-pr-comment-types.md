@@ -1,6 +1,9 @@
 ---
 layout: post
 title:  "GitHubのpull requestに対するコメントの付け方は4種類"
+description: "GitHubのissue(PR)に対するコメントの付け方がいろいろあってよく分からなくなったので実験してみた。"
+og:
+  type: article
 ---
 
 GitHubのissue(PR)に対するコメントの付け方がいろいろあってよく分からなくなったので実験してみた。4種類ある。

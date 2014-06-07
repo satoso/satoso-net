@@ -1,6 +1,9 @@
 ---
 layout: post
 title:  ".htaccessの指定によって無限リダイレクトが発生した件"
+description: ".htaccessでリダイレクトさせる際には，存在しないファイルへのアクセスを考慮する必要がある。"
+og:
+  type: article
 ---
 
 ドキュメントの実ファイルをそっくり別のディレクトリに入れておきたい場合がある。例えば `/` へのアクセスを `/somedir/` へ向ける（`/index.html` へのアクセスで `/somedir/index.html` を返す）場合， `.htaccess` にこんな感じで書く。

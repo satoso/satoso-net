@@ -1,6 +1,9 @@
 ---
 layout: default
 title: 白紙のPDF
+description: "ただのA4縦の白紙PDFファイルです。PDFのページ調整をしたいときによく必要になるので作りました。"
+og:
+  type: article
 ---
 
 ##白紙のPDF
