@@ -11,17 +11,7 @@ title: about
 
 ##保有資格・技術
 
-- 応用情報技術者
-- 情報セキュリティスペシャリスト
-- データベーススペシャリスト
-- ネットワークスペシャリスト
-- git & GitHub
-- HTML(ERB, Slim), CSS(SCSS)
-- SQL
-- Ruby
-- Jekyll
-- Sinatra (a bit)
-- VBA
+応用情報技術者 / 情報セキュリティスペシャリスト / データベーススペシャリスト / ネットワークスペシャリスト / git & GitHub / HTML(ERB, Slim) / CSS(SCSS) / SQL / Ruby / Jekyll / Sinatra (a bit) / VBA / COBOL & JCL / Trombone / 修士(文学)
 
 ##好きな作品など
 
