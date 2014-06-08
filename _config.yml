@@ -14,7 +14,7 @@ include: [.htaccess]
 gems: [jekyll-slim]
 permalink: /text/:year/:month/:day/:title.html
 twitter_username: "@so_trb"
-googleplus_profile_url: "https://plus.google.com/117220374295498294715/"
+googleplus_profile_url: "https://plus.google.com/117220374295498294715"
 sass:
   style: :expanded
 ##for jekyll-sass
