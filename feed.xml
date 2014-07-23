@@ -7,6 +7,23 @@
     <atom:link href="http://satoso.net/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>目に優しい系colorschemeの問題点</title>
+        <description>&lt;p&gt;VimやTerminalのcolorschemeでは，Solarizedを筆頭に，目に優しい系の配色が人気だ。確かに低彩度・低コントラストの色の方が目の疲れが軽減されるのだが，単純にそういうcolorschemeを使うだけで問題が解決するわけではない。&lt;/p&gt;
+
+&lt;h3&gt;細身のフォントでは色が見分けられない&lt;/h3&gt;
+
+&lt;p&gt;目に優しい系colorschemeはどぎつい色を避けているが，そもそもフォントが細身だと微妙な色の違いが分かりにくい。そういう場合は適当に彩度の高いものを選ぶのがよい。私はフォントはRictyを使っていて，これもそんなに太い部類ではないので淡すぎる色合いは避けている。私の今の気に入りは&lt;a href=&quot;https://github.com/w0ng/vim-hybrid&quot;&gt;hybrid&lt;/a&gt;である。&lt;/p&gt;
+
+&lt;h3&gt;特定のアプリケーションだけ目に優しくても仕方がない&lt;/h3&gt;
+
+&lt;p&gt;普通はVimやTerminalだけを使っているわけではないので，例えばブラウザの真っ白い画面と行ったり来たりすることも目の負担になる。好みにもよるが，ディスプレイ自体の輝度やコントラストを調節した方がよい場合がある。そしてcolorschemeはそれなりにコントラストの高いものを使う。&lt;/p&gt;
+</description>
+        <pubDate>Sun, 08 Jun 2014 00:00:00 +0900</pubDate>
+        <link>http://satoso.net/text/2014/06/08/colorscheme.html</link>
+        <guid isPermaLink="true">http://satoso.net/text/2014/06/08/colorscheme.html</guid>
+      </item>
+    
+      <item>
         <title>GitHubのpull requestに対するコメントの付け方は4種類</title>
         <description>&lt;p&gt;GitHubのissue(PR)に対するコメントの付け方がいろいろあってよく分からなくなったので実験してみた。4種類ある。&lt;/p&gt;
 
