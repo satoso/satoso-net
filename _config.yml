@@ -3,7 +3,7 @@ source: ./_source
 destination: ./_site
 
 # Handling Reading
-include: [.htaccess]
+include: [.htaccess, .gitkeep]
 exclude: []
 
 # Plugins
