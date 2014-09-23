@@ -5,9 +5,7 @@
   https://github.com/berkoz/gereksiz
 */
 
-/*
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,latin-ext);
-*/
 
 /* Global Reset */
 html, body, div, p, img, h1, h2, h3, h4, h5, h6, ul, ol, dl, dt, dd,
@@ -19,8 +17,8 @@ nav, header, footer, section, article {
 
 body {
   background-color: #fff;
-  font-family: Verdana, sans-serif;
-  /* font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  /* font-family: Verdana, sans-serif; */
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .whole-content {
