@@ -7,31 +7,36 @@
     <atom:link href="http://satoso.net/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>目に優しい系colorschemeの問題点</title>
-        <description>&lt;p&gt;VimやTerminalのcolorschemeでは，Solarizedを筆頭に，目に優しい系の配色が人気だ。確かに低彩度・低コントラストの色の方が目の疲れが軽減されるのだが，単純にそういうcolorschemeを使うだけで問題が解決するわけではない。&lt;/p&gt;
+        <title>目に優しい系 colorscheme の問題点</title>
+        <description>&lt;p&gt;Vim や Terminal の colorscheme では， Solarized を筆頭に，目に優しい系の配色が人気だ。確かに低彩度・低コントラストの色の方が目の疲れが軽減されるのだが，単純にそういう colorscheme を使うだけで問題が解決するわけではない。&lt;/p&gt;
 
-&lt;h3&gt;細身のフォントでは色が見分けられない&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;細身のフォントでは色が見分けられない&lt;/p&gt;
 
-&lt;p&gt;目に優しい系colorschemeはどぎつい色を避けているが，そもそもフォントが細身だと微妙な色の違いが分かりにくい。そういう場合は適当に彩度の高いものを選ぶのがよい。私はフォントはRictyを使っていて，これもそんなに太い部類ではないので淡すぎる色合いは避けている。私の今の気に入りは&lt;a href=&quot;https://github.com/w0ng/vim-hybrid&quot;&gt;hybrid&lt;/a&gt;である。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;目に優しい系 colorscheme はどぎつい色を避けているが，そもそもフォントが細身だと微妙な色の違いが分かりにくい。そういう場合は適当に彩度の高いものを選ぶのがよい。私はフォントは Ricty を使っていて，これもそんなに太い部類ではないので淡すぎる色合いは避けている。私の今の気に入りは &lt;a href=&quot;https://github.com/w0ng/vim-hybrid&quot;&gt;hybrid&lt;/a&gt; である。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;特定のアプリケーションだけ目に優しくても仕方がない&lt;/p&gt;
 
-&lt;h3&gt;特定のアプリケーションだけ目に優しくても仕方がない&lt;/h3&gt;
-
-&lt;p&gt;普通はVimやTerminalだけを使っているわけではないので，例えばブラウザの真っ白い画面と行ったり来たりすることも目の負担になる。好みにもよるが，ディスプレイ自体の輝度やコントラストを調節した方がよい場合がある。そしてcolorschemeはそれなりにコントラストの高いものを使う。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;普通は Vim や Terminal だけを使っているわけではないので，例えばブラウザの真っ白い画面と行ったり来たりすることも目の負担になる。好みにもよるが，ディスプレイ自体の輝度やコントラストを調節した方がよい場合がある。そして colorscheme はそれなりにコントラストの高いものを使う。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Sun, 08 Jun 2014 00:00:00 +0900</pubDate>
-        <link>http://satoso.net/text/2014/06/08/colorscheme.html</link>
-        <guid isPermaLink="true">http://satoso.net/text/2014/06/08/colorscheme.html</guid>
+        <link>http://satoso.net/texts/20140608-colorscheme/</link>
+        <guid isPermaLink="true">http://satoso.net/texts/20140608-colorscheme/</guid>
       </item>
     
       <item>
-        <title>GitHubのpull requestに対するコメントの付け方は4種類</title>
-        <description>&lt;p&gt;GitHubのissue(PR)に対するコメントの付け方がいろいろあってよく分からなくなったので実験してみた。4種類ある。&lt;/p&gt;
+        <title>GitHub の pull request に対するコメントの付け方は4種類</title>
+        <description>&lt;p&gt;GitHub の issue(PR) に対するコメントの付け方がいろいろあってよく分からなくなったので実験してみた。4種類ある。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;pull requestに対するコメント:&lt;br&gt;&lt;code&gt;&amp;lt;username&amp;gt; commented&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;commitに対するコメント:&lt;br&gt;&lt;code&gt;&amp;lt;username&amp;gt; commented on &amp;lt;commit hash&amp;gt;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;commitの特定の行に対するコメント:&lt;br&gt;&lt;code&gt;&amp;lt;username&amp;gt; commented on &amp;lt;commit hash&amp;gt; &amp;lt;filename&amp;gt;:L&amp;lt;line number&amp;gt;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;filesの特定の行に対するコメント:&lt;br&gt;&lt;code&gt;&amp;lt;username&amp;gt; commented on the diff&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;pull request に対するコメント:&lt;br&gt;&lt;code&gt;&amp;lt;username&amp;gt; commented&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;commit に対するコメント:&lt;br&gt;&lt;code&gt;&amp;lt;username&amp;gt; commented on &amp;lt;commit hash&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;commit の特定の行に対するコメント:&lt;br&gt;&lt;code&gt;&amp;lt;username&amp;gt; commented on &amp;lt;commit hash&amp;gt; &amp;lt;filename&amp;gt;:L&amp;lt;line number&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;files の特定の行に対するコメント:&lt;br&gt;&lt;code&gt;&amp;lt;username&amp;gt; commented on the diff&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;すべてが入ったサンプルはこちら。&lt;/p&gt;
@@ -41,13 +46,13 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 17 May 2014 00:00:00 +0900</pubDate>
-        <link>http://satoso.net/text/2014/05/17/github-pr-comment-types.html</link>
-        <guid isPermaLink="true">http://satoso.net/text/2014/05/17/github-pr-comment-types.html</guid>
+        <link>http://satoso.net/texts/20140517-github-comments/</link>
+        <guid isPermaLink="true">http://satoso.net/texts/20140517-github-comments/</guid>
       </item>
     
       <item>
-        <title>.htaccessの指定によって無限リダイレクトが発生した件</title>
-        <description>&lt;p&gt;ドキュメントの実ファイルをそっくり別のディレクトリに入れておきたい場合がある。例えば &lt;code&gt;/&lt;/code&gt; へのアクセスを &lt;code&gt;/somedir/&lt;/code&gt; へ向ける（&lt;code&gt;/index.html&lt;/code&gt; へのアクセスで &lt;code&gt;/somedir/index.html&lt;/code&gt; を返す）場合， &lt;code&gt;.htaccess&lt;/code&gt; にこんな感じで書く。&lt;/p&gt;
+        <title>.htaccess の指定によって無限リダイレクトが発生した件</title>
+        <description>&lt;p&gt;ドキュメントの実ファイルをそっくり別のディレクトリに入れておきたい場合がある。例えば &lt;code&gt;/&lt;/code&gt; へのアクセスを &lt;code&gt;/somedir/&lt;/code&gt; へ向ける（ &lt;code&gt;/index.html&lt;/code&gt; へのアクセスで &lt;code&gt;/somedir/index.html&lt;/code&gt; を返す）場合， &lt;code&gt;.htaccess&lt;/code&gt; にこんな感じで書く。&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-apache&quot; data-lang=&quot;apache&quot;&gt;&lt;span class=&quot;c&quot;&gt;#.htaccess&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;# リクエストしたファイルが存在せず，かつディレクトリも存在しない場合，rewriteする&lt;/span&gt;
 &lt;span class=&quot;nb&quot;&gt;RewriteCond&lt;/span&gt; %{REQUEST_FILENAME} !-f
@@ -57,7 +62,7 @@
 &lt;p&gt;ところがこれをやったらサーバのログにエラーメッセージがたくさん出て，対処方法が分からずずいぶんとハマった。こういうのが大量に出る。&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;[xxx xxx xx xx:xx:xx 2014] [error] [client xx.xxx.xx.xx] Request exceeded the limit of 10 internal redirects due to probable configuration error. Use &amp;#39;LimitInternalRecursion&amp;#39; to increase the limit if necessary. Use &amp;#39;LogLevel debug&amp;#39; to get a backtrace.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;結論から言うと，直接の原因は &lt;em&gt;&lt;code&gt;favicon.ico&lt;/code&gt; と &lt;code&gt;robots.txt&lt;/code&gt; がないこと&lt;/em&gt;だった。そもそも上の記述は， &lt;code&gt;/&lt;/code&gt; にも &lt;code&gt;/somedir/&lt;/code&gt; にも存在しないファイルに対してアクセスがあった場合， &lt;code&gt;/somedir/somedir/somedir/...&lt;/code&gt; と，見つかるまでrewriteし続ける（はず。ログレベルがいじれなくて詳細が分からなかったが）。ブラウザでの閲覧で &lt;code&gt;favicon.ico&lt;/code&gt; に，検索エンジンのクロールで &lt;code&gt;robots.txt&lt;/code&gt; にそれぞれアクセスするので，ファイルがないからリダイレクトの上限に達するまでrewriteされてしまったというわけ。&lt;/p&gt;
+&lt;p&gt;結論から言うと，直接の原因は &lt;em&gt;&lt;code&gt;favicon.ico&lt;/code&gt; と &lt;code&gt;robots.txt&lt;/code&gt; がないこと&lt;/em&gt;だった。そもそも上の記述は， &lt;code&gt;/&lt;/code&gt; にも &lt;code&gt;/somedir/&lt;/code&gt; にも存在しないファイルに対してアクセスがあった場合， &lt;code&gt;/somedir/somedir/somedir/...&lt;/code&gt; と，見つかるまで rewrite し続ける（はず。ログレベルがいじれなくて詳細が分からなかったが）。ブラウザでの閲覧で &lt;code&gt;favicon.ico&lt;/code&gt; に，検索エンジンのクロールで &lt;code&gt;robots.txt&lt;/code&gt; にそれぞれアクセスするので，ファイルがないからリダイレクトの上限に達するまでrewriteされてしまったというわけ。&lt;/p&gt;
 
 &lt;p&gt;当然ながらこれは &lt;code&gt;favicon.ico&lt;/code&gt; と &lt;code&gt;robots.txt&lt;/code&gt; に限った話ではなく，存在しないファイルにアクセスされた場合には同様の結果になる。根本的な解決策としては &lt;em&gt;&lt;code&gt;RewriteCond %{REQUEST_URI} !^/somedir&lt;/code&gt; という1行を追加して， &lt;code&gt;/somedir&lt;/code&gt; で始まるURIに対してはもう書き換えしないようにする。&lt;/em&gt;&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-apache&quot; data-lang=&quot;apache&quot;&gt;&lt;span class=&quot;c&quot;&gt;#.htaccess&lt;/span&gt;
@@ -68,25 +73,25 @@
 &lt;span class=&quot;nb&quot;&gt;RewriteRule&lt;/span&gt; ^(.*)$ &lt;span class=&quot;sx&quot;&gt;/somedir/&lt;/span&gt;$1 [L,QSA]
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
         <pubDate>Sun, 20 Apr 2014 00:00:00 +0900</pubDate>
-        <link>http://satoso.net/text/2014/04/20/excessive-redirects-caused-by-htaccess.html</link>
-        <guid isPermaLink="true">http://satoso.net/text/2014/04/20/excessive-redirects-caused-by-htaccess.html</guid>
+        <link>http://satoso.net/texts/20140420-redirects-by-htaccess/</link>
+        <guid isPermaLink="true">http://satoso.net/texts/20140420-redirects-by-htaccess/</guid>
       </item>
     
       <item>
-        <title>Jekyllでまとまったデータを扱う: _dataディレクトリの利用</title>
-        <description>&lt;p&gt;個人サイトをやっていると，簡易なデータベースを作ってデータを置いておきたい場合がある。つまらない例だが，たとえば蔵書リストのような。こういう場合，少量ならともかく，エントリが増えてくるとHTMLのみで管理するのはつらくなってくる。それに，リストの見せ方を変えたい場合にいちいちリスト全体のHTMLの書き換えが必要になり煩雑である。&lt;/p&gt;
+        <title>Jekyll でまとまったデータを扱う: _data ディレクトリの利用</title>
+        <description>&lt;p&gt;個人サイトをやっていると，簡易なデータベースを作ってデータを置いておきたい場合がある。つまらない例だが，たとえば蔵書リストのような。こういう場合，少量ならともかく，エントリが増えてくると HTML のみで管理するのはつらくなってくる。それに，リストの見せ方を変えたい場合にいちいちリスト全体の HTML の書き換えが必要になり煩雑である。&lt;/p&gt;
 
-&lt;p&gt;Jekyllには，データをYAMLで保持しておいて，テンプレートに流し込むことでHTMLを生成する機能がある。見せ方を変える場合もテンプレートだけ変えればすむ。ちゃんと公式ドキュメントもあるのだが，なぜか日本語で取り上げているサイトがほとんどないのは地味さのためか。非常に便利なので，&lt;a href=&quot;http://jekyllrb.com/docs/datafiles&quot; title=&quot;Data Files&quot;&gt;公式サイトの説明&lt;/a&gt;の要点をメモしておく。&lt;/p&gt;
+&lt;p&gt;Jekyll には，データを YAML で保持しておいて，テンプレートに流し込むことで HTML を生成する機能がある。見せ方を変える場合もテンプレートだけ変えればすむ。ちゃんと公式ドキュメントもあるのだが，なぜか日本語で取り上げているサイトがほとんどないのは地味さのためか。非常に便利なので，&lt;a href=&quot;http://jekyllrb.com/docs/datafiles&quot; title=&quot;Data Files&quot;&gt;公式サイトの説明&lt;/a&gt;の要点をメモしておく。&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;code&gt;_data&lt;/code&gt;ディレクトリを作る。（&lt;code&gt;jekyll new&lt;/code&gt;で作られるディレクトリ構造にはこのフォルダがないので自分で追加する必要がある）&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;_data&lt;/code&gt;ディレクトリにYAML形式でデータを置く。たとえば&lt;code&gt;books.yaml&lt;/code&gt;。&lt;/li&gt;
-&lt;li&gt;テンプレート側では&lt;code&gt;site.data.books&lt;/code&gt;でデータを参照可能。&lt;code&gt;books&lt;/code&gt;のところはYAMLのファイル名に依存。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;_data&lt;/code&gt; ディレクトリを作る。（ &lt;code&gt;jekyll new&lt;/code&gt; で作られるディレクトリ構造にはこのフォルダがないので自分で追加する必要がある）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;_data&lt;/code&gt; ディレクトリにYAML形式でデータを置く。たとえば &lt;code&gt;books.yaml&lt;/code&gt; 。&lt;/li&gt;
+&lt;li&gt;テンプレート側では &lt;code&gt;site.data.books&lt;/code&gt; でデータを参照可能。 &lt;code&gt;books&lt;/code&gt; のところは YAML のファイル名に依存。&lt;/li&gt;
 &lt;/ol&gt;
 </description>
         <pubDate>Sun, 09 Mar 2014 00:00:00 +0900</pubDate>
-        <link>http://satoso.net/text/2014/03/09/handling-data-with-jekyll.html</link>
-        <guid isPermaLink="true">http://satoso.net/text/2014/03/09/handling-data-with-jekyll.html</guid>
+        <link>http://satoso.net/texts/20140309-handling-data-with-jekyll/</link>
+        <guid isPermaLink="true">http://satoso.net/texts/20140309-handling-data-with-jekyll/</guid>
       </item>
     
   </channel>

@@ -1,0 +1,5 @@
+
+meta-creation_date: 2013-05-19
+meta-markup: Markdown
+
+高校の同級生の見舞い。

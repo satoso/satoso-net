@@ -1,0 +1,6 @@
+
+meta-creation_date: 2014-01-24
+meta-markup: Markdown
+
+新調したスーツを受け取った。
+

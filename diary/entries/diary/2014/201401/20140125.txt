@@ -1,0 +1,5 @@
+
+meta-creation_date: 2014-01-25
+meta-markup: Markdown
+
+演奏会前日だというのに休日出勤。

@@ -1,0 +1,8 @@
+小雨
+meta-creation_date: 2012-03-17
+meta-markup: Markdown
+
+L'Ensemble Epsilonのコンサートを聴きに船堀へ。端正な演奏である。
+
+![船堀](http://instagram.com/p/IRVnRPyLiF/media?size=l "船堀")
+

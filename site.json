@@ -1,0 +1,27 @@
+[
+
+{
+   "title": "目に優しい系 colorscheme の問題点",
+   "date":  "2014-06-08 00:00:00 +0900",
+   "url":   "/texts/20140608-colorscheme/"
+},
+
+{
+   "title": "GitHub の pull request に対するコメントの付け方は4種類",
+   "date":  "2014-05-17 00:00:00 +0900",
+   "url":   "/texts/20140517-github-comments/"
+},
+
+{
+   "title": ".htaccess の指定によって無限リダイレクトが発生した件",
+   "date":  "2014-04-20 00:00:00 +0900",
+   "url":   "/texts/20140420-redirects-by-htaccess/"
+},
+
+{
+   "title": "Jekyll でまとまったデータを扱う: _data ディレクトリの利用",
+   "date":  "2014-03-09 00:00:00 +0900",
+   "url":   "/texts/20140309-handling-data-with-jekyll/"
+},
+
+false]

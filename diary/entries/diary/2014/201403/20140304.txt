@@ -1,0 +1,5 @@
+
+meta-creation_date: 2014-03-04
+meta-markup: Markdown
+
+自分と折り合いをつけて生きるというのは難しいものだな。

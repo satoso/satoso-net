@@ -1,0 +1,8 @@
+
+meta-creation_date: 2014-01-18
+meta-markup: Markdown
+
+根津にてT氏と飲む。
+
+![根津](http://instagram.com/p/jTi1z_yLnG/media?size=l "根津")
+

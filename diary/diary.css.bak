@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+/* initialize.css を先に読み込むこと */
+
+h2 {
+  margin: 0.8em 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+h2 a {
+  text-decoration: underline;
+}
+
+.entry {
+  margin: 0 0 3em 0;
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
+.entry p {
+  margin: 0.8em 0;
+}
+
+.entry img {
+  max-width: 100%;
+  border: 1px solid #eee;
+}
+
+.entry ul,
+.entry ol {
+  margin: 0.6em 0 0.6em 1.4em;
+}
+
+.entry ul li,
+.entry ol li {
+  margin: 0.4em 0;
+}
+
+/* <hr> decoration */
+/* ref: http://hail2u.net/blog/webdesign/swap-hr-element-with-characters.html */
+.entry hr {
+  margin: 0.8em auto;
+  border: none;
+  position: relative;
+  clear: both;
+  width: 100%;
+  height: 1em;
+  background-color: transparent;
+  box-sizing: content-box;
+}
+.entry hr:before {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 1em;
+  line-height: 1em;
+  content: "\002a";
+  color: #000;
+  font-size: 100%;
+  text-align: center;
+}
+
+.entry {
+  position: relative;
+}
+
+.entry-link {
+  position: absolute;
+  left: -1.8em;
+}
+
+.entry-link,
+.entry-link a {
+  text-decoration: none;
+}
+
+.entry-title {
+  text-decoration: none;
+  font-weight: normal;
+  background-color: #ddd;
+  display: inline;
+}
+
+.notitle {
+  display: none;
+}
+
+ul.archives,
+ul.archives ul {
+  list-style-type: none;
+}
+
+ul.archives {
+  margin: 0.6em 0;
+}
+
+ul.archives ul li {
+  /* 月の表示 */
+  white-space: nowrap; /* 途中で改行しない */
+}
+
+ul.archives ul {
+  margin: 0 0 0 1em;
+}
+
+ul.archives ul li {
+  display: inline;
+  padding-right: 0.6em;
+}
+
+.sub {
+  padding-bottom: 2em;
+}
+

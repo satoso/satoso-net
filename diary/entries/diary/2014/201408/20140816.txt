@@ -1,0 +1,12 @@
+
+meta-creation_date: 2014-08-16
+meta-markup: Markdown
+
+Rails 再勉強中。
+
+Ricty に入っている Inconsolata がどうしてもなじめないので DejaVu Sans Mono に変えた。なんだろうな，細身で丸っこくて線の安定感に欠けるというか。読むのに集中できない。 DejaVu に変えたら没入感がすごい。
+手元の環境では DejaVu の 14pt が Ricty の 16pt 相当なので vim の設定は下記のようにしている。
+
+set guifont=DejaVu\ Sans\ Mono:h14<br>
+set guifontwide=Ricty:h16
+

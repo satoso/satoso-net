@@ -1,0 +1,16 @@
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: Megalodon
+Disallow: /
+
+user-agent: Baiduspider
+disallow: /
+
+user-agent: BaiduImagespider
+disallow: /
+
+user-agent: BaiduMobaider
+disallow: /
+
+
