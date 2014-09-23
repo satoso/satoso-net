@@ -1,0 +1,374 @@
+---
+---
+/*
+  design partly from Gereksiz by berkoz
+  https://github.com/berkoz/gereksiz
+*/
+
+/*
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,latin-ext);
+*/
+
+/* Global Reset */
+html, body, div, p, img, h1, h2, h3, h4, h5, h6, ul, ol, dl, dt, dd,
+nav, header, footer, section, article {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+body {
+  background-color: #fff;
+  font-family: Verdana, sans-serif;
+  /* font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+}
+
+.whole-content {
+  font-size: 96%;
+  line-height: 1.5;
+  width: 40em;
+  max-width: 92%;
+  margin: 3em auto 2em;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 0 0 1em;
+}
+
+h2 {
+  font-weight: bold;
+  margin: 1.2em 0;
+}
+
+.title-group {
+  margin: 1.2em 0;
+  h2 {
+    margin: 0;
+  }
+}
+
+h3 {
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+.diary h3 {
+  font-weight: normal;
+  margin: 0 0 .6em;
+}
+
+p { margin: 1em 0; }
+
+/*
+a         { color: #00a; }
+a:hover   { color: #000; }
+a:visited { color: #a0a; }
+*/
+a {
+  text-decoration: underline;
+  color: #4186d3;
+}
+
+a:visited {
+  text-decoration: underline;
+  color: #274f7d;
+}
+/* Gereksiz
+    a         { color: #3498DB; text-decoration: none; }
+    a:visited { color: #58ace3; }
+    a:hover   { color: #2980B9; }
+ */
+
+ul, ol { margin: 1em 0 1em 1.4em; }
+
+ul ul, ul ol,
+ol ul, ol ol {
+  margin: 0 0 0 1.4em;
+}
+
+span.timestamp {
+  color: #aaa;
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-size: 86%;
+  margin-right: 0.8em;
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+strong {
+  font-weight: bold;
+  background-color: #fff3b8;
+}
+.no-wrap {
+  white-space: nowrap; /* 途中で改行しない */
+}
+
+ul.posts {
+  list-style-type: none;
+  margin-left: 0;
+  margin-bottom: 2em;
+}
+
+ul.posts li {
+  margin: 0.6em 0;
+  line-height: 1.1;
+}
+
+p.site-desc {
+  margin-bottom: 1.4em;
+}
+
+ul.concerts {
+  .date { font-weight: bold; }
+  .place { color: #999; }
+}
+
+header {
+  margin-bottom: 1.2em;
+
+  nav {
+    display: inline-block;
+
+    ul {
+      margin: 0;
+      padding: 0;
+
+      li {
+        margin: 0 0 0 0.6em;
+        padding: 0;
+        display: inline-block;
+        font-weight: bold;
+      }
+    }
+
+    a, a:visited { color: #aaa; }
+    a.here       { color: #000; border-bottom: 2px solid #000; }
+    a:hover      { color: #000; }
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+h1.title {
+  display: inline-block;
+  margin: 0;
+  font-weight: bold;
+  font-size: 104%;
+
+
+  a       { color: #a00; }
+/* Gereksiz
+  a       { color: #e74c3c;}
+ */
+  a:hover { color: #000; }
+}
+
+p.meta {
+  margin: 0;
+  color: #aaa;
+}
+
+img.top {
+/*  margin-bottom: 1.2em;*/
+}
+
+img {
+  max-width: 100%;
+}
+
+.profile-photo {
+  text-align: center;
+  margin: 0.6em auto;
+
+  img {
+    width: 160px;
+    border-radius: 4px;
+  }
+}
+
+ul.archives { margin: 0.6em 0; }
+ul.archives, ul.archives ul { list-style-type: none; }
+ul.archives ul {
+  margin: 0 0 0 1em;
+  li {
+    white-space: nowrap; /* 途中で改行しない */
+    display: inline;
+    padding-right: 0.6em;
+  }
+}
+
+footer {
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
+
+  /*
+  .contact {
+    a { color: #8085C1; }
+  }
+  */
+
+  .rss {
+    margin-top: 1.1em;
+    margin-right: -.2em;
+    float: right;
+
+    img { border: 0; }
+  }
+}
+
+address {
+  font-style: normal;
+  margin: 0.4em 0;
+}
+
+article {
+  margin-bottom: 2.6em;
+}
+
+/* standard */
+.post {
+  ul, ol {
+    margin-left: 1.35em;
+  }
+
+  /* Gereksiz [[[ */
+  code,
+  pre {
+     font-family: Menlo, Monaco, "Courier New", monospace;
+  }
+  code {
+     /*padding: .25em .5em;*/
+     padding: .15em .5em;
+     font-size: 90%;
+     color: #bf616a;
+     background-color: #f9f2f4;
+     border-radius: 3px;
+  }
+  pre {
+     display: block;
+     margin: 0 0 14px;
+     padding: 10px 20px;
+     font-size: 15px;
+     line-height: 1.4;
+     white-space: pre;
+     /*white-space: pre-wrap;*/
+     /*word-break: break-all;*/
+     /*word-wrap: break-word;*/
+     background-color: #eee;
+  }
+  pre code {
+     padding: 0;
+     font-size: 80%;
+     color: inherit;
+     background-color: transparent;
+  }
+  .highlight {
+     margin-bottom: 15px;
+     border-radius: 4px;
+  }
+  .highlight pre {
+     margin-bottom: 0;
+  }
+
+  blockquote {
+     padding: 0px 18px;
+     margin: 15px 0;
+     border-left: 4px solid rgba(52, 73, 94, 0.85);
+  }
+
+  blockquote p {
+     margin-bottom: 0;
+     color: #7a7a7a;
+  }
+  /* ]]] */
+  pre {
+    overflow-x: auto;
+  }
+
+  q:before { content: open-quote; }
+  q:after { content: close-quote; }
+  q {
+    font-style: normal;
+    border-bottom: 1px solid #ccc;
+    quotes: "「" "」" "『" "』";
+  }
+
+  /* <hr> decoration */
+  /* ref: http://hail2u.net/blog/webdesign/swap-hr-element-with-characters.html */
+  hr {
+    margin: 0.8em auto;
+    border: none;
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 1em;
+    background-color: transparent;
+    box-sizing: content-box;
+  }
+  hr:before {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1em;
+    line-height: 1em;
+    content: "\002a";
+    color: #000;
+    font-size: 100%;
+    text-align: center;
+  }
+  /* <hr> decoration end */
+
+  /*
+  pre {
+    border: 1px solid #ddd;
+    background-color: #eef;
+    padding: 0 .4em;
+    overflow-x: auto;
+  }
+
+  code {
+    border: 1px solid #ddd;
+    background-color: #eef;
+    padding: 0 .2em;
+  }
+
+  pre code {
+    border: none;
+  }
+
+  pre.terminal {
+    border: 1px solid #000;
+    background-color: #333;
+    color: #FFF;
+    overflow-x: auto;
+  }
+
+  pre.terminal code {
+    background-color: #333;
+  }
+  */
+}
+
+.diary_selector {
+  text-align: right;
+}
+
+@media screen and (max-width:480px) {
+
+  .whole-content {
+    margin-top: 1em;
+  }
+  span.timestamp {
+    display: block;
+    margin-right: 0;
+  }
+
+}

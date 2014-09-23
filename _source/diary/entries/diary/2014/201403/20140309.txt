@@ -1,0 +1,5 @@
+
+meta-creation_date: 2014-03-09
+meta-markup: Markdown
+
+satoso.netをリニューアル。Jekyllで作ってBitbucketで管理，git pushで公開という流行りのスタイルにしてみた。ローカルの環境でちまちまと独学，かれこれ数ヶ月？ ついでにこの日記の方もgit管理にし，diary.satoso.netというサブドメインに変更，以前のURLからはリダイレクト。相変わらずハマるのは.htaccessで，なかなかうまくいかずにうんざりする。

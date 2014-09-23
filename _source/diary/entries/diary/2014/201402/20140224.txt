@@ -1,0 +1,5 @@
+
+meta-creation_date: 2014-02-24
+meta-markup: Markdown
+
+日記をtDiaryからblosxomに戻した。最低限の機能しか使わないし，blosxomの方が幾分軽く，シュッとしてて小気味よい，というのが理由。

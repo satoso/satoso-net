@@ -1,0 +1,5 @@
+
+meta-creation_date: 2014-07-25
+meta-markup: Markdown
+
+他責の障害の対応を25:00くらいまでやっていた……。

@@ -1,0 +1,5 @@
+
+meta-creation_date: 2014-04-07
+meta-markup: Markdown
+
+会社で受けた適性検査（性格診断のようなやつ）でなかなか興味深い結果が返ってきた。

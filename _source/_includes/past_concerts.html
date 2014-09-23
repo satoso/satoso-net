@@ -1,0 +1,17 @@
+<ul class="concerts">
+  {% for concert in site.data.concerts %}
+
+  {% unless concert.future %}
+  <li>
+  <span class="date">
+  {{ concert.date | date:"%Y.%m.%d" }}
+  </span> {{ concert.name }} 
+  <span class="place">
+  @ {{ concert.place }}
+
+  </span></li>{% endunless %}
+  {% endfor %}
+
+  <li>以下，整理中</li>
+</ul>
+

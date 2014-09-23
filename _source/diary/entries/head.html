@@ -1,0 +1,17 @@
+---
+# YAML front matter for Jekyll
+title: $date_title::title$blog_title
+og:
+  url: $my_permalink::my_permalink
+---
+<!DOCTYPE html>
+<html lang="ja-JP">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  <div class="whole-content">
+    {% include header.html %}
+
+    <main>
+      <h2>$blog_title</h2>

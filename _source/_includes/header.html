@@ -1,0 +1,13 @@
+<header>
+  <h1 class="title">
+    <a href="/">{{ site.title }}</a>
+  </h1>
+  <nav>
+    <ul>
+      <li><a class="{% if page.under == 'about' %}here{% endif %}" href="/about/">about</a></li>
+      <li><a class="{% if page.under == 'diary' %}here{% endif %}" href="/diary/">diary</a></li>
+      <li><a class="{% if page.under == 'texts' %}here{% endif %}" href="/texts/">texts</a></li>
+      <li><a class="{% if page.under == 'misc'  %}here{% endif %}" href="/misc/">misc</a></li>
+    </ul>
+  </nav>
+</header>

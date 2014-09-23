@@ -1,0 +1,5 @@
+
+meta-creation_date: 2014-03-20
+meta-markup: Markdown
+
+新宿で北京ダックの会。

@@ -1,0 +1,9 @@
+曇
+meta-creation_date: 2012-06-05
+meta-markup: Markdown
+
+今日から半袖を着ている。少し喉が痛いような気がする。風邪？
+
+NHK「タイムスクープハンター」今回も溜飲の下がる話。
+
+個人や小さな企業で開発しているシンプルなサービスを、この時代にあえて使うというのはなかなか乙な話だと思う。つまり、大手ブログサービスではなくTexttを、はてなブックマークやDeliciousではなくPinboardを、Facebookではなく24dを、ブクログではなくMediaMarkerを、Evernoteではなく紙copi  Netを。

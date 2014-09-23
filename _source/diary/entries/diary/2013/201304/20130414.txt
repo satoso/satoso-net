@@ -1,0 +1,5 @@
+
+meta-creation_date: 2013-04-14
+meta-markup: Markdown
+
+[Getting Started with Rails](http://guides.rubyonrails.org/getting_started.html)をKindleで読みつつ実践。まだ全然よくわかってないけど、ずいぶん便利なもんだなと思う。しばらくはサンプルコードの写経に励もう。

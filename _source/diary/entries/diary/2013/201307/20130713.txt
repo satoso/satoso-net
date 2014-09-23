@@ -1,0 +1,6 @@
+
+meta-creation_date: 2013-07-13
+meta-markup: Markdown
+
+泳いだ。
+

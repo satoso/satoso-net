@@ -1,30 +1,70 @@
-#name: Your New Jekyll Site
-name: satoso.net
-domain: satoso.net
-description: "佐藤奏のウェブサイト。"
-baseurl: ""
-feed_file: "/feed.xml"
-url: "http://satoso.net"
-markdown: redcarpet
-#pygments: true
-highlighter: pygments
-exclude: [README.markdown, commit-push.sh, jekyll-serve.sh]
+# Where things are
+source: ./_source
+destination: ./_site
+
+# Handling Reading
 include: [.htaccess]
-#gems: [jekyll-slim, jekyll-sass]
-gems: [jekyll-slim]
-permalink: /text/:year/:month/:day/:title.html
-twitter_username: "@so_trb"
-googleplus_profile_url: "https://plus.google.com/117220374295498294715"
+exclude: []
+
+# Plugins
+# gems: [jekyll-slim]
+
+# Conversion
+markdown: redcarpet
+highlighter: pygments
 sass:
   style: :expanded
-##for jekyll-sass
-#sass:
-#    style:  expanded  # nested|expanded|compact|compressed
-#    # deploy_style: compressed  # nested|expanded|compact|compressed
-#    deploy_style: expanded # nested|expanded|compact|compressed
-#    # "deploy_style:" is used only for building the site
-#    # (ie: not using the --watch flag)
-#
-#    compile_in_place: false   # true|false
-#    # If true, compiles sass directly into your jekyll source directory
-#    # As well as your destination directory
+
+# Serving
+baseurl: ""
+
+# Outputting
+permalink: /texts/:year:month:day-:title/
+
+# Original parameters
+title: satoso.net
+domain: satoso.net
+description: "佐藤奏のウェブサイト。"
+feed_file: "/feed.xml"
+url: "http://satoso.net"
+twitter_username: "@so_trb"
+googleplus_profile_url: "https://plus.google.com/117220374295498294715"
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ''
+    values:
+      layout: default
+  -
+    scope:
+      path: 'about'
+    values:
+      under: about
+  -
+    scope:
+      path: 'diary'
+    values:
+      under: diary
+      layout: null
+  -
+    scope:
+      path: 'texts'
+    values:
+      under: texts
+  -
+    scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+      under: texts
+      og:
+        type: article
+  -
+    scope:
+      path: 'misc'
+    values:
+      layout: default
+      under: misc
