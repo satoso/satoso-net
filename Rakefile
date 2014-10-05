@@ -46,10 +46,10 @@ end
 
 def commit_push(comment)
   sh "bundle exec jekyll build"
-  sh "git add --all --verbose"
+  sh "git add --all --verbose ."
   sh "git commit -m '#{comment}' --verbose"
   sh "cd _site"
-  sh "git add --all --verbose"
+  sh "git add --all --verbose ."
   sh "git commit -m '#{comment}' --verbose"
   sh "cd .."
   sh "git push --all --verbose origin"
