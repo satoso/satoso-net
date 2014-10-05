@@ -9,7 +9,7 @@ meta-markup: Markdown
 EOS
 # EDITOR = 'vim'
 EDITOR = 'open -a /Applications/MacVim.app'
-HTML_DIR = './site'
+HTML_DIR = './_site'
 
 desc 'write/edit an entry on [date]'
 task :diary, [:date] do |t, args|
