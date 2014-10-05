@@ -1,0 +1,5 @@
+
+meta-creation_date: 2014-10-04
+meta-markup: Markdown
+
+Rails の勉強。ActiveRecord enums はなかなか使い出があるがまだこなれていない感じがする。たとえば User モデルの type という項目を enum で持たせると User.types で一覧をハッシュで取得できるが，キーが string になってる。ここはシンボルにしてくれないと使いにくいんだが……。
