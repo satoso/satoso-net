@@ -9,7 +9,7 @@ meta-markup: Markdown
 EOS
 # EDITOR = 'vim'
 EDITOR = 'open -a /Applications/MacVim.app'
-
+HTML_DIR = './site'
 
 desc 'write/edit an entry on [date]'
 task :diary, [:date] do |t, args|
@@ -48,10 +48,9 @@ def commit_push(comment)
   sh "bundle exec jekyll build"
   sh "git add --all --verbose ."
   sh "git commit -m '#{comment}' --verbose"
-  sh "cd _site"
-  sh "git add --all --verbose ."
-  sh "git commit -m '#{comment}' --verbose"
-  sh "cd .."
+  cd HTML_DIR do
+    sh "git add --all --verbose ."
+    sh "git commit -m '#{comment}' --verbose"
+  end
   sh "git push --all --verbose origin"
 end
-
