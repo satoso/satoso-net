@@ -11,6 +11,13 @@ EOS
 EDITOR = 'open -a /Applications/MacVim.app'
 HTML_DIR = './_site'
 
+task :default => :build
+
+desc 'build using Jekyll'
+task :build do
+  jekyll_build
+end
+
 desc 'write/edit an entry on [date]'
 task :diary, [:date] do |t, args|
   if args.date
@@ -18,6 +25,21 @@ task :diary, [:date] do |t, args|
   else
     edit_diary Date.today
   end
+end
+
+desc 'commit and push to origin'
+task :deploy, [:comment] do |t, args|
+  fail 'comment not specified' unless args.comment
+  commit_push(args.comment)
+end
+
+desc 'commit and push diary to origin'
+task :deploy_diary do |t|
+  commit_push('diary update')
+end
+
+def jekyll_build
+  sh "bundle exec jekyll build"
 end
 
 def edit_diary(diary_date)
@@ -33,19 +55,8 @@ def edit_diary(diary_date)
   sh "#{EDITOR} #{diary_file}"
 end
 
-desc 'commit and push to origin'
-task :deploy, [:comment] do |t, args|
-  fail 'comment not specified' unless args.comment
-  commit_push(args.comment)
-end
-
-desc 'commit and push diary to origin'
-task :deploy_diary do |t|
-  commit_push('diary update')
-end
-
 def commit_push(comment)
-  sh "bundle exec jekyll build"
+  jekyll_build
   sh "git add --all --verbose ."
   sh "git commit -m '#{comment}' --verbose"
   cd HTML_DIR do
