@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/satoso/satoso-net.svg?branch=master)](https://travis-ci.org/satoso/satoso-net)
+
 satoso.net
 
 - `master` branch: source files
