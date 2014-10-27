@@ -1,0 +1,5 @@
+
+meta-creation_date: 2014-10-25
+meta-markup: Markdown
+
+少しずつ翻訳していた「Wikipedia:Too long; didn't read」ができあがったので公開。
