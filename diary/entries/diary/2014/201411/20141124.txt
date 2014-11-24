@@ -1,0 +1,9 @@
+
+meta-creation_date: 2014-11-24
+meta-markup: Markdown
+
+ひきつづき合宿。
+
+Foursquare の Swarm アプリでチェックインして，しばらくしてから「さっきのチェックインって何時だっけ」と思ってアプリを開いたが，「1時間前」などと出るばかりでどうやっても時刻が分からない。しかし，数日以上前のチェックインについては分単位の正確な時刻が表示される。おかしな話である。
+
+![箱根](http://instagram.com/p/vxPKMsyLug/media?size=l "箱根")
