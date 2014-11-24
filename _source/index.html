@@ -11,7 +11,7 @@ home: true
     <ul class="concerts">
       {% for concert in site.data.concerts %}
         {% if concert.future %}
-        <li><span class="date">{{ concert.date | date:"%Y.%m.%d" }}</span> <a href="{{ concert.link }}" target="_blank">{{ concert.name }}</a><span class="place"> @ {{ concert.place }}</span></li>
+        <li><span class="date">{{ concert.date | date:"%Y.%m.%d" }}</span> {% if concert.link %}<a href="{{ concert.link }}" target="_blank">{{ concert.name }}</a>{% else %}{{ concert.name }}{% endif %}<span class="place"> @ {{ concert.place }}</span></li>
         {% endif %}
       {% endfor %}
     </ul>
