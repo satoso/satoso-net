@@ -1,0 +1,5 @@
+
+meta-creation_date: 2014-11-25
+meta-markup: Markdown
+
+気もそぞろに仕事。
