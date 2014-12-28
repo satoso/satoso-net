@@ -358,7 +358,6 @@ article.diary {
 .post q {
   font-style: normal;
   border-bottom: 1px solid #ccc;
-  quotes: "「" "」" "『" "』";
 }
 .post hr {
   margin: 0.8em auto;
