@@ -16,7 +16,7 @@
 <meta name="twitter:site" content="{{ site.twitter_username }}">
 <meta name="twitter:creator" content="{{ site.twitter_username }}">
 <meta name="twitter:domain" content="{{ site.domain }}">
-<link rel="alternate" href="{{ site.feed_file }}" title="RSS" type="application/rss+xml">
+<link rel="alternate" href="{% if page.under == 'diary' %}{{ site.feed_file_diary }}{% else %}{{ site.feed_file }}{% endif %}" title="RSS" type="application/rss+xml">
 <link rel="author" href="{{ site.googleplus_profile_url }}">
 <link rel="stylesheet" href="/assets/main.css">
 <link rel="stylesheet" href="/assets/syntax.css">

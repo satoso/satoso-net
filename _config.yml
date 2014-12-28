@@ -26,6 +26,7 @@ title: satoso.net
 domain: satoso.net
 description: "佐藤奏のウェブサイト。"
 feed_file: "/feed.xml"
+feed_file_diary: "/diary/index.rss"
 url: "http://satoso.net"
 twitter_username: "@so_trb"
 googleplus_profile_url: "https://plus.google.com/117220374295498294715"
