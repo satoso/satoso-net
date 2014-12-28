@@ -8,7 +8,7 @@ meta-markup: Markdown
 
 ---
 
-モダンな開発環境ってのはなんでも格好いいな、しかし。Sinatraを終了させたときのメッセージが気に入っている： <q>Sinatra has ended his set (crowd applauds)</q>
+モダンな開発環境ってのはなんでも格好いいな、しかし。Sinatraを終了させたときのメッセージが気に入っている： <q lang="en">Sinatra has ended his set (crowd applauds)</q>
 
 ![晴海 第一生命ホールより](http://instagram.com/p/dtOguWyLn7/media?size=l "晴海 第一生命ホールより")
 
