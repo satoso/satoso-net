@@ -7,9 +7,9 @@ use strict;
 use vars qw($my_permalink);
 
 sub start {
-  if (!$blosxom::path_info_yr) {
-    return 0;
-  }
+  #if (!$blosxom::path_info_yr) {
+  #  return 0;
+  #}
 
   return 1;
 }
@@ -17,7 +17,8 @@ sub start {
 sub head {
   my($pkg, $currentdir, $head_ref) = @_;
 
-  $my_permalink  = "$blosxom::url/$blosxom::path_info_yr/";
+  $my_permalink  = "$blosxom::url/";
+  $my_permalink .= "$blosxom::path_info_yr/" if $blosxom::path_info_yr;
   $my_permalink .= "$blosxom::path_info_mo_num/" if $blosxom::path_info_mo_num;
   $my_permalink .= "$blosxom::path_info_da/" if $blosxom::path_info_da;
 
@@ -25,3 +26,4 @@ sub head {
 }
 
 1;
+
