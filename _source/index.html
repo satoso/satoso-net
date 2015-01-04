@@ -9,10 +9,9 @@ home: true
   <section>
     <h2>出演予定</h2>
     <ul class="concerts">
-      {% for concert in site.data.concerts %}
-        {% if concert.future %}
+      {% assign concerts = site.data.concerts | where:"future",true %}
+      {% for concert in concerts %}
         <li><span class="date">{{ concert.date | date:"%Y.%m.%d" }}</span> {% if concert.link %}<a href="{{ concert.link }}" target="_blank">{{ concert.name }}</a>{% else %}{{ concert.name }}{% endif %}<span class="place"> @ {{ concert.place }}</span></li>
-        {% endif %}
       {% endfor %}
     </ul>
   </section>

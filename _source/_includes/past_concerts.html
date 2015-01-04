@@ -1,15 +1,11 @@
 <ul class="concerts">
-  {% for concert in site.data.concerts %}
-
-  {% unless concert.future %}
+  {% assign concerts = site.data.concerts | where:"future",nil %}
+  {% for concert in concerts %}
   <li>
-  <span class="date">
-  {{ concert.date | date:"%Y.%m.%d" }}
-  </span> {{ concert.name }} 
-  <span class="place">
-  @ {{ concert.place }}
-
-  </span></li>{% endunless %}
+    <span class="date">{{ concert.date | date:"%Y.%m.%d" }}</span>
+    {{ concert.name }} 
+    <span class="place">@ {{ concert.place }}</span>
+  </li>
   {% endfor %}
 
   <li>以下，整理中</li>
