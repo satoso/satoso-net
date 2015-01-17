@@ -7,6 +7,27 @@
     <atom:link href="http://satoso.net/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>iTunes Storeでミサ曲の歌詞が伏せ字になっている</title>
+        <description>&lt;p&gt;シューベルトの「ミサ曲第5番」をiTunes Storeで買おうと探していた。&lt;a href=&quot;https://itunes.apple.com/jp/album/schubert-mass-no.-5-in-flat/id337110803&quot; title=&quot;Schubert: Mass No. 5 In a Flat Major, D. 678 - ヘルムート・リリング, Oregon Bach Festival Orchestra, Michael Volle, Oregon Bach Festival Choir, Donna Brown, ジェイムス・テイラー &amp;amp; Monica Groop&quot;&gt;このアルバム&lt;/a&gt;，第2曲 &amp;quot;Gloria&amp;quot; のトラックのタイトルが妙なことになっている。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/cum_sancto_spiritu.png&quot; alt=&quot;Cum Sancto Spiritu&quot; title=&quot;Cum Sancto Spiritu&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;6楽章構成のミサ曲だが，このアルバムでは各楽章中でもさらにトラック分けされ，それぞれの歌詞冒頭部分がタイトルに付いている。&amp;quot;Cum Sancto Spiritu&amp;quot; が &amp;quot;C*m ...&amp;quot; となっているようだ。このアルバム以外でも一様にこの表記である。ミサ曲という特性上なにか表記にもしきたりがあるのだろうかと思い調べてみると，どうやらAppleのNGワードフィルタが誤爆している模様（曲をダウンロードしたiTunes内では伏せ字にはならず，あくまでStore上だけの話）。実にくだらない。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Yes, another triumph of the iTunes automatic asterisking program: the innocent Latin preposition &amp;quot;cum&amp;quot; &amp;#39;with&amp;#39; loses its &amp;quot;u&amp;quot; because of its dirty homograph, as in Blowfly&amp;#39;s song &amp;quot;Cum of a Lifetime&amp;quot; and Super 8 Cum Shot&amp;#39;s self-titled album.&lt;/p&gt;
+
+&lt;p&gt;&lt;cite&gt;&lt;a href=&quot;http://itre.cis.upenn.edu/%7Emyl/languagelog/archives/003427.html&quot;&gt;Language Log: C*m sancto spiritu&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;英語でないものにもヒットするというのもひどい話だが，そもそもこんな伏せ字で誰にどういうメリットがあるのだろうか。&lt;/p&gt;
+</description>
+        <pubDate>Sat, 17 Jan 2015 00:00:00 +0900</pubDate>
+        <link>http://satoso.net/texts/20150117-itunes-asterisk/</link>
+        <guid isPermaLink="true">http://satoso.net/texts/20150117-itunes-asterisk/</guid>
+      </item>
+    
+      <item>
         <title>2014年，読んでよかった本3選</title>
         <description>&lt;p&gt;今年私が読んだ本から。&lt;/p&gt;
 
