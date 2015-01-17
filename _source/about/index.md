@@ -9,7 +9,7 @@ og:
 
 <span class="no-wrap">佐藤 奏</span> (SATŌ&nbsp;Sō) 1984年宮城県生まれ。東京大学大学院人文社会系研究科修了。専門は日本語学（方言アクセント）。在学中は管弦楽団にて音楽活動に明け暮れる。2009年よりシステムエンジニアとして金融系システム開発に従事。[オーケストラ・セレーナ](http://o-serena.jp/)，[アルス・ブラスアンサンブル](http://arsbrass.org/) トロンボーン奏者。A Vimmer and Rubyist.
 
-<div class="profile-photo"><img class="profile" src="/assets/profile.jpg"></div>
+<div class="profile-photo"><img class="profile" src="/assets/images/profile.jpg"></div>
 
 ##保有資格・技術
 
