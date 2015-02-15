@@ -1,0 +1,5 @@
+
+meta-creation_date: 2015-02-15
+meta-markup: Markdown
+
+もろもろ，本気出さないといけない。本当に。
