@@ -1,0 +1,5 @@
+
+meta-creation_date: 2015-02-28
+meta-markup: Markdown
+
+某所で飲み。思いがけず日本酒を飲み過ぎる。
