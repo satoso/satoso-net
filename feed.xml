@@ -240,12 +240,7 @@
       <item>
         <title>.htaccess の指定によって無限リダイレクトが発生した件</title>
         <description>&lt;p&gt;ドキュメントの実ファイルをそっくり別のディレクトリに入れておきたい場合がある。例えば &lt;code&gt;/&lt;/code&gt; へのアクセスを &lt;code&gt;/somedir/&lt;/code&gt; へ向ける（ &lt;code&gt;/index.html&lt;/code&gt; へのアクセスで &lt;code&gt;/somedir/index.html&lt;/code&gt; を返す）場合， &lt;code&gt;.htaccess&lt;/code&gt; にこんな感じで書く。&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-apache&quot; data-lang=&quot;apache&quot;&gt;&lt;span class=&quot;c&quot;&gt;#.htaccess&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# リクエストしたファイルが存在せず，かつディレクトリも存在しない場合，rewriteする&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;RewriteCond&lt;/span&gt; %{REQUEST_FILENAME} !-f
-&lt;span class=&quot;nb&quot;&gt;RewriteCond&lt;/span&gt; %{REQUEST_FILENAME} !-d
-&lt;span class=&quot;nb&quot;&gt;RewriteRule&lt;/span&gt; ^(.*)$ &lt;span class=&quot;sx&quot;&gt;/somedir/&lt;/span&gt;$1 [L,QSA]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;p&gt;ところがこれをやったらサーバのログにエラーメッセージがたくさん出て，対処方法が分からずずいぶんとハマった。こういうのが大量に出る。&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;[xxx xxx xx xx:xx:xx 2014] [error] [client xx.xxx.xx.xx] Request exceeded the limit of 10 internal redirects due to probable configuration error. Use &amp;#39;LimitInternalRecursion&amp;#39; to increase the limit if necessary. Use &amp;#39;LogLevel debug&amp;#39; to get a backtrace.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
