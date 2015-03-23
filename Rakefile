@@ -23,10 +23,18 @@ task :diary, [:date] do |t, args|
   if args.date
     dt = Date.parse(args.date)
     if (Date.today - dt) > 30
+      puts "###"
+      puts "###"
       puts "### WARNING: #{dt} is older than 30 days ago"
+      puts "###"
+      puts "###"
     end
     if (Date.today - dt) < 0
+      puts "###"
+      puts "###"
       puts "### WARNING: #{dt} is newer than today"
+      puts "###"
+      puts "###"
     end
 
     edit_diary dt
