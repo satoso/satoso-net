@@ -1,0 +1,5 @@
+
+meta-creation_date: 2015-04-08
+meta-markup: Markdown
+
+寒気が入ってきたとかで夜中から昼にかけてどんどん気温が下がり，日中は5度に届かなかった模様。
