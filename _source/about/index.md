@@ -17,10 +17,10 @@ og:
 
 ##好きな作品など
 
-- M. セルバンテス，牛島信明(訳)，『ドン・キホーテ』，岩波文庫
-- 佐藤信夫，『レトリック感覚』，講談社現代文庫
-- J. シベリウス，交響曲第7番 ハ長調 op.105
-- F. シューベルト，ミサ曲第5番 変イ長調 D678
+- [M. セルバンテス，牛島信明(訳)，『ドン・キホーテ』，岩波文庫](http://www.iwanami.co.jp/cgi-bin/isearch?isbn=ISBN4-00-327211-S)
+- [佐藤信夫，『レトリック感覚』，講談社現代文庫](http://bookclub.kodansha.co.jp/product?isbn=9784061590298)
+- [J. シベリウス，交響曲第7番 ハ長調 op.105](http://imslp.org/wiki/Symphony_No.7,_Op.105_(Sibelius,_Jean))
+- [F. シューベルト，ミサ曲第5番 変イ長調 D678](http://imslp.org/wiki/Mass_No.5,_D.678_(Schubert,_Franz))
 - [hybrid](https://github.com/w0ng/vim-hybrid) (Vim color scheme)
 
 ##演奏経歴
