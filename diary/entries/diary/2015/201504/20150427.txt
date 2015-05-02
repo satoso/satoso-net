@@ -1,0 +1,5 @@
+
+meta-creation_date: 2015-04-27
+meta-markup: Markdown
+
+お世話になった方々とランチ。
