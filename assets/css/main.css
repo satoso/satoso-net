@@ -83,14 +83,13 @@ ul, ol {
   margin: 1em 0 1em 1.4em;
 }
 
-ul ul, ul ol,
-ol ul, ol ol {
-  margin: 0 0 0 1.4em;
+ol {
+  padding-left: 0.4em;
 }
 
-ul li,
-ol li {
-  margin: 0.4em 0;
+ul ul, ul ol,
+ol ul, ol ol {
+  margin: 0.4em 0 0.4em 1.4em;
 }
 
 span.timestamp {
@@ -334,7 +333,7 @@ article.diary {
   */
 }
 .post ul, .post ol {
-  margin-left: 1.35em;
+  /*margin-left: 1.35em;*/
 }
 .post code,
 .post pre {
