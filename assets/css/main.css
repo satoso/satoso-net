@@ -88,6 +88,11 @@ ol ul, ol ol {
   margin: 0 0 0 1.4em;
 }
 
+ul li,
+ol li {
+  margin: 0.4em 0;
+}
+
 span.timestamp {
   color: #aaa;
   font-family: Menlo, Monaco, "Courier New", monospace;
