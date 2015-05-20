@@ -1,0 +1,5 @@
+
+meta-creation_date: 2015-05-18
+meta-markup: Markdown
+
+初出社。
