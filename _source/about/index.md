@@ -7,13 +7,30 @@ og:
 
 ##プロフィール
 
-<span class="no-wrap">佐藤 奏</span> (SATŌ&nbsp;Sō) 1984年宮城県生まれ。東京大学大学院人文社会系研究科修士課程修了。専門は日本語学（方言アクセント）。在学中は管弦楽団にて音楽活動に明け暮れる。2009年よりシステムエンジニアとして金融系システム開発に従事。[オーケストラ・セレーナ](http://o-serena.jp/)，[アルス・ブラスアンサンブル](http://arsbrass.org/) トロンボーン奏者。A Vimmer and Rubyist.
+<span class="no-wrap">佐藤 奏</span> (SATŌ&nbsp;Sō) 1984年宮城県生まれ。東京大学大学院人文社会系研究科修士課程修了。専門は日本語学（方言アクセント）。在学中は管弦楽団にて音楽活動に明け暮れる。2009年4月より金融系システムエンジニア。2015年5月よりデータ分析分野のエンジニア。[オーケストラ・セレーナ](http://o-serena.jp/)，[アルス・ブラスアンサンブル](http://arsbrass.org/) トロンボーン奏者。A Vimmer and Rubyist.
 
 <div class="profile-photo"><img class="profile" src="/assets/images/profile.jpg"></div>
 
 ##保有資格・技術
 
-応用情報技術者 / 情報セキュリティスペシャリスト / データベーススペシャリスト / ネットワークスペシャリスト / git & GitHub / HTML(ERB, Slim) / CSS(SCSS) / SQL / Ruby / Jekyll / Sinatra (a bit) / VBA / COBOL & JCL / Trombone / 修士(文学)
+<ul class="inline taglike">
+  <li>応用情報技術者</li>
+  <li>情報セキュリティスペシャリスト</li>
+  <li>データベーススペシャリスト</li>
+  <li>ネットワークスペシャリスト</li>
+  <li>Vim</li>
+  <li>git & GitHub</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>SQL</li>
+  <li>Ruby</li>
+  <li>Jekyll</li>
+  <li>Sinatra</li>
+  <li>VBA</li>
+  <li>COBOL & JCL</li>
+  <li>Trombone</li>
+  <li>修士(文学)</li>
+</ul>
 
 ##好きな作品など
 

@@ -117,6 +117,27 @@ ul.posts li {
   line-height: 1.1;
 }
 
+ul.inline {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+
+  li {
+    display: inline;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+ul.taglike li {
+  background-color: #eee;
+  border-radius: 3px;
+  padding: 0 .5em;
+  line-height: 1.5;
+}
+
 p.site-desc {
   margin-bottom: 1.4em;
 }
