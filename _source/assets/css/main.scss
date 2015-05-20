@@ -81,15 +81,11 @@ a:visited {
  */
 
 ul, ol { margin: 1em 0 1em 1.4em; }
+ol { padding-left: 0.4em; }
 
 ul ul, ul ol,
 ol ul, ol ol {
-  margin: 0 0 0 1.4em;
-}
-
-ul li,
-ol li {
-  margin: 0.4em 0;
+  margin: 0.4em 0 0.4em 1.4em;
 }
 
 span.timestamp {
@@ -275,7 +271,7 @@ article.diary {
 /* standard */
 .post {
   ul, ol {
-    margin-left: 1.35em;
+    /*margin-left: 1.35em;*/
   }
 
   /* Gereksiz [[[ */
