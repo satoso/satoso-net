@@ -340,7 +340,7 @@ article.diary {
 }
 .post code,
 .post pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 .post code {
   /*padding: .25em .5em;*/
