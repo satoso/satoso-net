@@ -27,6 +27,7 @@ body {
   margin: 1.6em auto 2em;
   -ms-text-autospace: ideograph-alpha;
   text-autospace: ideograph-alpha;
+  text-justify: inter-ideograph;
 }
 
 h1 {
