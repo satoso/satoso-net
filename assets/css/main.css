@@ -25,6 +25,8 @@ body {
   width: 40em;
   max-width: 92%;
   margin: 1.6em auto 2em;
+  -ms-text-autospace: ideograph-alpha;
+  text-autospace: ideograph-alpha;
 }
 
 h1 {
