@@ -20,7 +20,7 @@ body {
 
 .whole-content {
   /*font-size: 96%;*/
-  color: #111;
+  color: #333;
   line-height: 1.5;
   width: 40em;
   max-width: 92%;
@@ -96,7 +96,6 @@ ol ul, ol ol {
 
 span.timestamp {
   color: #aaa;
-  /* font-family: Menlo, Monaco, "Courier New", monospace; */
   font-size: 92%;
 }
 
@@ -180,11 +179,11 @@ header nav a, header nav a:visited {
   color: #aaa;
 }
 header nav a.here {
-  color: #111;
-  border-bottom: 2px solid #111;
+  color: #333;
+  border-bottom: 2px solid #333;
 }
 header nav a:hover {
-  color: #111;
+  color: #333;
 }
 header a {
   text-decoration: none;
@@ -203,7 +202,7 @@ h1.title a {
   color: #a00;
 }
 h1.title a:hover {
-  color: #111;
+  color: #333;
 }
 
 p.meta {
@@ -314,7 +313,7 @@ article.diary {
   }
 
   pre.terminal {
-    border: 1px solid #111;
+    border: 1px solid #000;
     background-color: #333;
     color: #FFF;
     overflow-x: auto;
@@ -415,7 +414,7 @@ article.diary {
   height: 0.5em;
   line-height: 0.5em;
   content: "\002a";
-  color: #111;
+  color: #333;
   font-size: 100%;
   text-align: center;
 }
@@ -426,15 +425,8 @@ article.diary {
 
 @media screen and (max-width: 480px) {
   .whole-content {
-    line-height: 1.35;
+    line-height: 1.4;
     max-width: 94%;
     margin-top: 1em;
   }
-
-  /*
-  span.timestamp {
-    display: block;
-    margin-right: 0;
-  }
-  */
 }
