@@ -4,6 +4,9 @@
   design partly from Gereksiz by berkoz
   https://github.com/berkoz/gereksiz
 */
+$fonts:             "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$fonts_pre:         Menlo, Monaco, Consolas, "Courier New", monospace;
+$primary_color:     #333;
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,latin-ext);
 
@@ -18,12 +21,12 @@ nav, header, footer, section, article {
 body {
   background-color: #fff;
   /* font-family: Verdana, sans-serif; */
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $fonts;
 }
 
 .whole-content {
   /*font-size: 96%;*/
-  color: #111;
+  color: $primary_color;
   line-height: 1.5;
   width: 40em;
   max-width: 92%;
@@ -92,7 +95,6 @@ ol ul, ol ol {
 
 span.timestamp {
   color: #aaa;
-  /* font-family: Menlo, Monaco, "Courier New", monospace; */
   font-size: 92%;
 }
 
@@ -171,8 +173,8 @@ header {
     }
 
     a, a:visited { color: #aaa; }
-    a.here       { color: #111; border-bottom: 2px solid #111; }
-    a:hover      { color: #111; }
+    a.here       { color: $primary_color; border-bottom: 2px solid $primary_color; }
+    a:hover      { color: $primary_color; }
   }
 
   a {
@@ -191,7 +193,7 @@ h1.title {
 /* Gereksiz
   a       { color: #e74c3c;}
  */
-  a:hover { color: #111; }
+  a:hover { color: $primary_color; }
 }
 
 p.meta {
@@ -281,7 +283,7 @@ article.diary {
   /* Gereksiz [[[ */
   code,
   pre {
-     font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+     font-family: $fonts_pre;
   }
   code {
      /*padding: .25em .5em;*/
@@ -359,7 +361,7 @@ article.diary {
     height: 0.5em;
     line-height: 0.5em;
     content: "\002a";
-    color: #111;
+    color: $primary_color;
     font-size: 100%;
     text-align: center;
   }
@@ -384,7 +386,7 @@ article.diary {
   }
 
   pre.terminal {
-    border: 1px solid #111;
+    border: 1px solid #000;
     background-color: #333;
     color: #FFF;
     overflow-x: auto;
@@ -414,15 +416,9 @@ article.diary {
 @media screen and (max-width:480px) {
 
   .whole-content {
-    line-height: 1.35;
+    line-height: 1.4;
     max-width: 94%;
     margin-top: 1em;
   }
-  /*
-  span.timestamp {
-    display: block;
-    margin-right: 0;
-  }
-  */
 
 }
