@@ -1,8 +1,0 @@
-
-meta-creation_date: 2013-10-27
-meta-markup: Markdown
-
-天気がよくて何だか泣けてくる。
-
-![調布](http://instagram.com/p/f8-iu5yLp9/media?size=l "調布")
-

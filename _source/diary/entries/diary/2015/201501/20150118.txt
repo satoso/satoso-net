@@ -1,5 +1,0 @@
-
-meta-creation_date: 2015-01-18
-meta-markup: Markdown
-
-エウテルペとアルスの練習。

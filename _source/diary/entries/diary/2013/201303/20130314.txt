@@ -1,5 +1,0 @@
-
-meta-creation_date: 2013-03-14
-meta-markup: Markdown
-
-![新宿](http://instagram.com/p/W1pHmNyLsm/media?size=l "新宿")

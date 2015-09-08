@@ -1,7 +1,0 @@
-    <item>
-      <title><?$path like="^/diary">$yr.$mo_num.$da $dw </?>$title</title>
-      <link>$url/$yr/$mo_num/$da/</link>
-      <description><![CDATA[$body]]></description>
-      <pubDate>$dw, $da $mo $yr $hr:$min:00 +0900</pubDate>
-      <guid>$url/$yr/$mo_num/$da/</guid>
-    </item>

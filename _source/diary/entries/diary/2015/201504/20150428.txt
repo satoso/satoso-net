@@ -1,5 +1,0 @@
-
-meta-creation_date: 2015-04-28
-meta-markup: Markdown
-
-送別会。

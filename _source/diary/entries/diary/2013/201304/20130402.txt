@@ -1,5 +1,0 @@
-
-meta-creation_date: 2013-04-02
-meta-markup: Markdown
-
-疲れた……。

@@ -1,7 +1,0 @@
-
-meta-creation_date: 2015-06-03
-meta-markup: Markdown
-
-半袖で仕事行ったりしていたら風邪引いた。口内炎もつらい。
-
-![紫陽花](https://instagram.com/p/3cjXXiSLmm/media?size=l "紫陽花")

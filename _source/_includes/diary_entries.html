@@ -1,0 +1,11 @@
+<section>
+  {% assign entries = site.diary_entries | where_year_month: {{page.disp_year}}, {{page.disp_month}} | sort_desc: 'date' %}
+  {% for entry in entries %}
+    <article class="diary">
+      <h3><a href="http://satoso.net/diary/{{ entry.date | date:"%Y/%m/%d" }}/">{{ entry.date | date:"%Y.%m.%d %a" }}</a>{% if entry.title %} {{ entry.title }}{% endif %}</h3>
+      <div class="article-body">
+        {{ entry.content }}
+      </div>
+    </article>
+  {% endfor %}
+</section>

@@ -1,7 +1,0 @@
-
-meta-creation_date: 2014-05-21
-meta-markup: Markdown
-
-ユニット畳というものを買った。いいなあ，畳は。
-
-![ユニット畳](http://instagram.com/p/oTAwW2yLgl/media?size=l "ユニット畳")

@@ -1,5 +1,0 @@
-
-meta-creation_date: 2013-09-13
-meta-markup: Markdown
-
-またまたトラブル対応でへろへろな週末になった。

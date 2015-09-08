@@ -1,7 +1,0 @@
-
-meta-creation_date: 2015-03-05
-meta-markup: Markdown
-
-ウヰスキーぐだぐだ。
-
-![新宿](https://instagram.com/p/z2MLikyLsX/media?size=l "新宿")

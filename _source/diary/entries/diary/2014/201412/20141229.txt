@@ -1,5 +1,0 @@
-
-meta-creation_date: 2014-12-29
-meta-markup: Markdown
-
-帰省。

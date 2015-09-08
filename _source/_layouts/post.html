@@ -1,12 +1,14 @@
 ---
 layout: default
 ---
-<article>
-  <div class="title-group">
-    <h2>{{ page.title }}</h2>
-    <p class="meta"><span class="timestamp">{{ page.date | date: "%Y.%m.%d %a" }}</span></p>
-  </div>
-  <div class="post">
-    {{ content }}
-  </div>
-</article>
+<section>
+  <article class="post">
+    <div class="article-title-group">
+      <h1>{{ page.title }}</h1>
+      <p class="meta"><span class="timestamp">{{ page.date | date: "%Y.%m.%d %a" }}</span></p>
+    </div>
+    <div class="article-body">
+      {{ content }}
+    </div>
+  </article>
+</section>

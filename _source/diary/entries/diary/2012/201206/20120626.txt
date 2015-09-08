@@ -1,5 +1,0 @@
-晴
-meta-creation_date: 2012-06-26
-meta-markup: Markdown
-
-春のデータベーススペシャリスト試験に受かった。

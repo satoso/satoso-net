@@ -30,6 +30,9 @@ feed_file_diary: "/diary/index.rss"
 url: "http://satoso.net"
 twitter_username: "@so_trb"
 googleplus_profile_url: "https://plus.google.com/117220374295498294715"
+# Don't generate ga-tags by default.
+# Overwrite this setting for production.
+google_analytics_enabled: false
 
 # Defaults
 defaults:
@@ -69,3 +72,8 @@ defaults:
     values:
       layout: default
       under: misc
+
+collections:
+  diary_entries:
+    output: true
+    permalink: /diary/:path/

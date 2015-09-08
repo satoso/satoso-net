@@ -1,5 +1,0 @@
-
-meta-creation_date: 2015-06-08
-meta-markup: Markdown
-
-Excelで `=CONCATENATE(A1:Z1,",")` みたいに書ければいいのにできなくて， `=A1&","&B1&","…` などと延々書かないといけないのが悲しい。

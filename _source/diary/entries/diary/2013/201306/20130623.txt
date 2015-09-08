@@ -1,5 +1,0 @@
-
-meta-creation_date: 2013-06-23
-meta-markup: Markdown
-
-Railsの勉強を再開。

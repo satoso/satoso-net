@@ -1,5 +1,0 @@
-
-meta-creation_date: 2013-09-07
-meta-markup: Markdown
-
-考えごとばかりしてしまった。

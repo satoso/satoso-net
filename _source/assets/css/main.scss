@@ -46,7 +46,7 @@ h2 {
   margin: 1.2em 0;
 }
 
-.title-group {
+.article-title-group {
   margin: 1.2em 0;
   h2 {
     margin: 0;
@@ -182,7 +182,7 @@ header {
   }
 }
 
-h1.title {
+.site-title {
   display: inline-block;
   margin: 0;
   font-weight: bold;
@@ -275,7 +275,7 @@ article.diary {
 }
 
 /* standard */
-.post {
+.article-body {
   ul, ol {
     /*margin-left: 1.35em;*/
   }

@@ -1,5 +1,0 @@
-
-meta-creation_date: 2015-07-22
-meta-markup: Markdown
-
-飲み会でいろいろな話を聞く。

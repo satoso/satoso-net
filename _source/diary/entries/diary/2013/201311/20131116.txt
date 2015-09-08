@@ -1,7 +1,0 @@
-
-meta-creation_date: 2013-11-16
-meta-markup: Markdown
-
-駒込にてアルスの練習。
-
-もう使っていない古いLet's NoteとMacBook、起動できるうちにハードディスクを消去しておくことにした。

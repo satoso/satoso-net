@@ -1,5 +1,0 @@
-
-meta-creation_date: 2015-06-19
-meta-markup: Markdown
-
-予定がなかなか合わない。

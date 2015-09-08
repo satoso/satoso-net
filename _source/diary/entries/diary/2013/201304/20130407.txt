@@ -1,7 +1,0 @@
-
-meta-creation_date: 2013-04-07
-meta-markup: Markdown
-
-[Yugui『初めてのRuby』（O'Reilly）](http://www.oreilly.co.jp/books/9784873113678/)をひととおり通読。O'ReillyのEbook(PDF)。後半はざっと読む程度。コンパクトで密度が濃く硬派、そしてRubyの世界観のようなものも伝わってくるよい本だった。技術書はネットの評判を見て買うに限る。サンプルコードにスウィフトの『ガリヴァー旅行記』の固有名詞がたくさん出てきて、面白いチョイスだなと思った。BrobdingnagとかLaputaとかHouyhnhnmとか。
-
-PDFをKindle Paperwhiteで読もうとしたらメモリ不足でまともに使えず、Nexus 7で読んだ。ePub版でもあればなァ。

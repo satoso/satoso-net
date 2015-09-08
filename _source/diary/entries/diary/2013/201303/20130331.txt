@@ -1,5 +1,0 @@
-
-meta-creation_date: 2013-03-31
-meta-markup: Markdown
-
-これまでPython, PHP, Perl, Rubyの順に少しずつかじったけど、Rubyは面白いな。3回繰り返すのが 3.times do ... end って。
