@@ -1,5 +1,6 @@
 ---
 title:  "メモ：音楽用語について"
+category: text
 description: "音楽用語についての素人考え。"
 ---
 

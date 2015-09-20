@@ -1,5 +1,6 @@
 ---
 title:  "iTunes Storeでミサ曲の歌詞が伏せ字になっている"
+category: text
 description: "iTunes Storeで無用な伏せ字が行われている。"
 ---
 

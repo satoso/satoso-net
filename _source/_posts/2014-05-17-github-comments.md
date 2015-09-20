@@ -1,5 +1,6 @@
 ---
 title:  "GitHub の pull request に対するコメントの付け方は4種類"
+category: text
 description: "GitHub の issue(PR) に対するコメントの付け方がいろいろあってよく分からなくなったので実験してみた。"
 ---
 

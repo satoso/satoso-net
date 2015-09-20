@@ -1,5 +1,6 @@
 ---
 title:  "目に優しい系 colorscheme の問題点"
+category: text
 description: "目に優しい低彩度・低コントラストの colorscheme について。"
 ---
 

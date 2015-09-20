@@ -2,13 +2,12 @@
 layout: default
 ---
 <section>
-  {% assign entries = site.diary_entries | where_year_month: {{page.disp_year}}, {{page.disp_month}} | sort_desc: 'date' %}
-  {% for entry in entries %}
-    <article class="diary">
-      <h3><a name="{{ entry.date | date:"%Y-%m-%d" }}" href="http://satoso.net/diary/{{ entry.date | date:"%Y/%m/#%Y-%m-%d" }}">{{ entry.date | date:"%Y.%m.%d %a" }}</a>{% if entry.title %} {{ entry.title }}{% endif %}</h3>
-      <div class="article-body">
-        {{ entry.content }}
-      </div>
-    </article>
-  {% endfor %}
+  <article class="post">
+    <div class="article-title-group">
+      <h1><a name="{{ page.date | date:"%Y-%m-%d" }}" href="{{ page.permalink }}">{{ page.date | date:"%Y.%m.%d %a" }}</a>{% if page.title %} {{ page.title }}{% endif %}</h1>
+    </div>
+    <div class="article-body">
+      {{ content }}
+    </div>
+  </article>
 </section>

@@ -1,6 +1,6 @@
 ---
 title:  "Jekyll でまとまったデータを扱う: _data ディレクトリの利用"
-categories: jekyll
+category: text
 description: "Jekyll サイト内で任意のデータを YAML で保存し活用する方法。"
 ---
 

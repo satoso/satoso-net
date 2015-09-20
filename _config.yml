@@ -7,7 +7,7 @@ include: [.htaccess, .gitkeep]
 exclude: []
 
 # Plugins
-# gems: [jekyll-slim]
+gems: [jekyll-feed]
 
 # Conversion
 markdown: redcarpet
@@ -51,7 +51,7 @@ defaults:
       path: 'diary'
     values:
       under: diary
-      layout: null
+      layout: diary
   -
     scope:
       path: 'texts'
@@ -72,8 +72,3 @@ defaults:
     values:
       layout: default
       under: misc
-
-collections:
-  diary_entries:
-    output: true
-    permalink: /diary/:path/

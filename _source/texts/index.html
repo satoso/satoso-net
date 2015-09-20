@@ -4,8 +4,9 @@ title: テキスト
 <section>
   <h2>テキスト</h2>
   <ul class="posts">
-    {% for post in site.posts %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a> <span class="timestamp">{{ post.date | date: "%Y.%m.%d" }}</span></li>
+    {% assign entries = site.posts | where: 'category', 'text' %}
+    {% for entry in entries %}
+      <li><a href="{{ entry.url }}">{{ entry.title }}</a> <span class="timestamp">{{ entry.date | date: "%Y.%m.%d" }}</span></li>
     {% endfor %}
   </ul>
 </section>

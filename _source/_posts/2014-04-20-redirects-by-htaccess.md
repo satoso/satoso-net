@@ -1,5 +1,6 @@
 ---
 title:  ".htaccess の指定によって無限リダイレクトが発生した件"
+category: text
 description: ".htaccess でリダイレクトさせる際には，存在しないファイルへのアクセスを考慮する必要がある。"
 ---
 

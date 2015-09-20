@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<section>
+  {% assign entries = site.posts | where: 'category', 'diary' | where_year_month: {{page.disp_year}}, {{page.disp_month}} | sort_desc: 'date' %}
+  {% for entry in entries %}
+    <article class="diary">
+      <h3><a name="{{ entry.date | date:"%Y-%m-%d" }}" href="{{ entry.permalink }}">{{ entry.date | date:"%Y.%m.%d %a" }}</a>{% if entry.title %} {{ entry.title }}{% endif %}</h3>
+      <div class="article-body">
+        {{ entry.content }}
+      </div>
+    </article>
+  {% endfor %}
+</section>
