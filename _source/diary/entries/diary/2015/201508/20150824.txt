@@ -1,0 +1,5 @@
+
+meta-creation_date: 2015-08-24
+meta-markup: Markdown
+
+帰ってきたら東京も涼しかった。
