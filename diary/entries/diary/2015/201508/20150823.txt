@@ -1,0 +1,7 @@
+
+meta-creation_date: 2015-08-23
+meta-markup: Markdown
+
+ずんだを作った。
+
+![ずんだ](https://instagram.com/p/6tzBB6SLs-/media?size=l "ずんだ")
