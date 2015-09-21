@@ -11,7 +11,7 @@ SOURCE_DIR = CONFIG['source']
 HTML_DIR = CONFIG['destination']
 
 DIARY_INDEX_DIR = "#{SOURCE_DIR}/diary"
-DIARY_ENTRIES_DIR = "#{SOURCE_DIR}/_diary_entries"
+DIARY_ENTRIES_DIR = "#{SOURCE_DIR}/_posts/diary"
 DIARY_SRCS = FileList["#{DIARY_ENTRIES_DIR}/**/*.md"]
 DIARY_PATH = "#{DIARY_ENTRIES_DIR}/%Y/%Y%m/%Y-%m-%d-diary.md"
 DIARY_HEADER = <<EOS

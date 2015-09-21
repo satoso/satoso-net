@@ -2,6 +2,14 @@
 layout: default
 ---
 <section>
+  <select onchange="if (this.value) window.location.href=this.value">
+    <option value>Navigate...</option>
+    {% assign diary_group = site.posts | where: 'category', 'diary' | sort_desc: 'date' | year_month_index %}
+    {% for month_entry in diary_group %}
+    <option value="/diary/{{ month_entry[1].first.date | date: "%Y/%m/" }}">{{ month_entry[1].first.date | date: "%Y.%m" }} ({{ month_entry[1].size }})</option>
+    {% endfor %}
+  </select>
+
   {% assign entries = site.posts | where: 'category', 'diary' | where_year_month: {{page.disp_year}}, {{page.disp_month}} | sort_desc: 'date' %}
   {% for entry in entries %}
     <article class="diary">
