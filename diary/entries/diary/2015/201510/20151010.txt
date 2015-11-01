@@ -1,0 +1,5 @@
+
+meta-creation_date: 2015-10-10
+meta-markup: Markdown
+
+インドカレーを食べる会。
