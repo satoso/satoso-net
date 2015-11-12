@@ -1,0 +1,5 @@
+
+meta-creation_date: 2015-11-12
+meta-markup: Markdown
+
+会社で使うキーボードを東プレRealforceにして1週間。さすがに快適だ。マウスも好みのマイクロソフト製品（Wireless Mobile Mouse 3500）にした。マイクロソフトのマウスは安くても堅牢で，作りに詰めの甘さがないのがいい。
