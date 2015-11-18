@@ -79,5 +79,6 @@ def commit_push(comment)
     sh "git add --all --verbose ."
     sh "git commit -m '#{comment}' --verbose"
   end
-  sh "git push --all --verbose origin"
+  sh "git push --verbose origin master"
+  sh "git push --verbose origin html"
 end
