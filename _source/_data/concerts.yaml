@@ -12,12 +12,6 @@
 #       name: 
 #       excerpts: [,]
 #       encore: true
-- name:   2016 安曇野楽友会
-  link:   //orchestra-classica.com/azumino2016.html
-  date:   2016-06-05
-  place:  キッセイ文化ホール（長野県松本文化会館） 大ホール
-  future: true
-
 - name:   アルス・ブラスアンサンブル 第8回演奏会
   link:   //arsbrass.org
   date:   2016-02-13
@@ -28,6 +22,12 @@
   link:   //orchestra.musicinfo.co.jp/~meson/
   date:   2016-03-27
   place:  横浜みなとみらいホール 小ホール
+  future: true
+
+- name:   2016 安曇野楽友会
+  link:   //orchestra-classica.com/azumino2016.html
+  date:   2016-06-05
+  place:  キッセイ文化ホール（長野県松本文化会館） 大ホール
   future: true
 
 - name:   ドイツフェスティバル2015
