@@ -1,0 +1,5 @@
+
+meta-creation_date: 2016-01-15
+meta-markup: Markdown
+
+新宿でぐだぐだと飲む。
